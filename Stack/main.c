@@ -17,6 +17,7 @@
 #define STACK_ENTER_NUM "Iveskite dirbamojo steko numeri: "
 #define STACK_CURRENT "Esate steke: "
 #define ENTER_NUM "Iveskite numeri: "
+#define PUSH_MESSAGE "Ideta reiksme: "
 #define POP_MESSAGE "Isimta reiksme: "
 #define PEEK_MESSAGE "Paziureta reiksme: "
 #define STACK_EMPTY "Stekas yra tuscias!"
@@ -91,7 +92,7 @@ int main()
                                 if (scanf("%d", &n) == 1 && getchar() == '\n'){
                                     push(&stackList[workIndex].sptr, n);
                                     CLEAR;
-                                    printf("\n%s%d\n\n", POP_MESSAGE, n);
+                                    printf("\n%s%d\n\n", PUSH_MESSAGE, n);
                                 } else {
                                     while(getchar() != '\n') continue;
                                     CLEAR;
