@@ -1,0 +1,100 @@
+UZDUOTIS nr. 4, VARIANTAS 1.
+AUTORIUS Nirtautas Sadauskas, GRUPE 2, POGRUPIS 2.
+
+DALIS 1.1. Salyga.
+
+Duotas lektuvu skrydziu sarasas: miestas, miestas, kaina.
+Rasti pigiausia skrydzio is vieno duoto miesto i kita duota miesta marsruta ir jo kaina.
+Numatyti atveji, kad toks marsrutas neegzistuoja.
+(grafo realizacija paremta kaimynystes matrica)
+
+DALIS 1.2. Duomenys.
+
+Marsrutu sarasas.
+
+A <-> B.   7 Eur.
+A <-> C.   9 Eur.
+B <-> C.  10 Eur.
+B <-> D.  15 Eur.
+D <-> C.  11 Eur.
+D <-> E.   6 Eur.
+E <-> F.   9 Eur.
+F <-> C.   2 Eur.
+A <-> F.  14 Eur.
+
+Pageidaujamas marsrutas. A -> E.
+
+DALIS 1.3. Grafo schema.
+
+	[E]<-6->[D]<-\
+	 ^       ^   |
+	 |       |   |
+	 9      11   |
+	 |       |   |
+	 v       v   |
+	[F]<-2->[C] 15
+	 ^      ^^   |
+ 	 |      ||   |
+	 |      ||   |
+	 |  9---/|   |
+        14 /    10   |
+	 |/      |   |
+         vv      v   |
+	[A]<-7->[B]<-/
+
+DALIS 1.4. Apdoroti duomenys.
+
+Suformuota kaiminystes matrica.
+
+   |   A   B   C   D   E   F   
+----------------------------
+ A |   0   7   9   0   0  14 
+ B |   7   0  10  15   0   0 
+ C |   9  10   0  11   0   2 
+ D |   0  15  11   0   6   0 
+ E |   0   0   0   6   0   9 
+ F |  14   0   2   0   9   0 
+
+DALIS 2. Vykdymas.
+
+VEIKSMAS_0. Pradine virsune A paruosta darbui.
+
+VEIKSMAS_1. Atidaroma A.
+
+	POVEIKSMIS_1.1. Tikrinama A -> B.
+	BUSENA.         Rasta pigiau A -> B, svoris minV=7.
+
+	POVEIKSMIS_1.2. Tikrinama A -> C.
+	BUSENA.         Rasta pigiau A -> C, svoris minV=9.
+
+	POVEIKSMIS_1.3. Tikrinama A -> F.
+	BUSENA.         Rasta pigiau A -> F, svoris minV=14.
+
+VEIKSMAS_2. Uzdaroma A, atidaroma B, nes svoris minV=7 i B maziausias.
+
+	POVEIKSMIS_2.1. Tikrinama B -> D.
+	BUSENA.         Rasta pigiau A -> D, svoris minV=22.
+
+VEIKSMAS_3. Uzdaroma B, atidaroma C, nes svoris minV=9 i C maziausias.
+
+	POVEIKSMIS_3.1. Tikrinama C -> D.
+	BUSENA.         Rasta pigiau A -> D, svoris minV=20.
+
+	POVEIKSMIS_3.2. Tikrinama C -> F.
+	BUSENA.         Rasta pigiau A -> F, svoris minV=11.
+
+VEIKSMAS_4. Uzdaroma C, atidaroma F, nes svoris minV=11 i F maziausias.
+
+	POVEIKSMIS_4.1. Tikrinama F -> E.
+	BUSENA.         Rasta pigiau A -> E, svoris minV=20.
+
+VEIKSMAS_5. Uzdaroma F, atidaroma E, nes svoris minV=20 i E maziausias.
+
+VEIKSMAS_6. Uzdaroma E. Darbas baigtas.
+
+DALIS 3.1. Rezultatas.
+
+Pigiausias skrydis A -> E kainuoja 20 Eur.
+
+Skrydzio marsrutas.
+A -> C -> F -> E.

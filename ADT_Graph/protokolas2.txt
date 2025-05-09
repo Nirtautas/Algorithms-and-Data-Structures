@@ -1,0 +1,121 @@
+UZDUOTIS nr. 4, VARIANTAS 1.
+AUTORIUS Nirtautas Sadauskas, GRUPE 2, POGRUPIS 2.
+
+DALIS 1.1. Salyga.
+
+Duotas lektuvu skrydziu sarasas: miestas, miestas, kaina.
+Rasti pigiausia skrydzio is vieno duoto miesto i kita duota miesta marsruta ir jo kaina.
+Numatyti atveji, kad toks marsrutas neegzistuoja.
+(grafo realizacija paremta kaimynystes matrica)
+
+DALIS 1.2. Duomenys.
+
+Marsrutu sarasas.
+
+A <-> B.   4 Eur.
+A <-> H.   8 Eur.
+B <-> H.  11 Eur.
+B <-> C.   8 Eur.
+C <-> D.   7 Eur.
+C <-> F.   4 Eur.
+C <-> I.   2 Eur.
+D <-> E.   9 Eur.
+D <-> F.  14 Eur.
+E <-> F.  10 Eur.
+F <-> G.   2 Eur.
+G <-> H.   1 Eur.
+G <-> I.   6 Eur.
+H <-> I.   7 Eur.
+
+Pageidaujamas marsrutas. A -> E.
+
+DALIS 1.3. Grafo schema.
+
+	[A]<-4->[B]<-8->[C]<-7->[D]<-9->[E]
+         ^       ^       ^^      ^       ^
+         |       |       | \     |       |
+         8      11       2  4   14      10
+	 |       |       |   \   |       |
+         |       |       v    \  |       |
+         |       |  /-->[I]    \ |       |
+         |       | /     ^      \|       |
+	 |       ||      |      ||       |
+         |       |7      6      ||       |
+         |       ||      |      ||       |
+         |       vv      v      vv       |
+         \----->[H]<-1->[G]<-2->[F]<-----/
+
+DALIS 1.4. Apdoroti duomenys.
+
+Suformuota kaiminystes matrica.
+
+   |   A   B   H   C   D   F   I   E   G   
+-----------------------------------------
+ A |   0   4   8   0   0   0   0   0   0 
+ B |   4   0  11   8   0   0   0   0   0 
+ H |   8  11   0   0   0   0   7   0   1 
+ C |   0   8   0   0   7   4   2   0   0 
+ D |   0   0   0   7   0  14   0   9   0 
+ F |   0   0   0   4  14   0   0  10   2 
+ I |   0   0   7   2   0   0   0   0   6 
+ E |   0   0   0   0   9  10   0   0   0 
+ G |   0   0   1   0   0   2   6   0   0 
+
+DALIS 2. Vykdymas.
+
+VEIKSMAS_0. Pradine virsune A paruosta darbui.
+
+VEIKSMAS_1. Atidaroma A.
+
+	POVEIKSMIS_1.1. Tikrinama A -> B.
+	BUSENA.         Rasta pigiau A -> B, svoris minV=4.
+
+	POVEIKSMIS_1.2. Tikrinama A -> H.
+	BUSENA.         Rasta pigiau A -> H, svoris minV=8.
+
+VEIKSMAS_2. Uzdaroma A, atidaroma B, nes svoris minV=4 i B maziausias.
+
+	POVEIKSMIS_2.1. Tikrinama B -> C.
+	BUSENA.         Rasta pigiau A -> C, svoris minV=12.
+
+VEIKSMAS_3. Uzdaroma B, atidaroma H, nes svoris minV=8 i H maziausias.
+
+	POVEIKSMIS_3.1. Tikrinama H -> I.
+	BUSENA.         Rasta pigiau A -> I, svoris minV=15.
+
+	POVEIKSMIS_3.2. Tikrinama H -> G.
+	BUSENA.         Rasta pigiau A -> G, svoris minV=9.
+
+VEIKSMAS_4. Uzdaroma H, atidaroma G, nes svoris minV=9 i G maziausias.
+
+	POVEIKSMIS_4.1. Tikrinama G -> F.
+	BUSENA.         Rasta pigiau A -> F, svoris minV=11.
+
+VEIKSMAS_5. Uzdaroma G, atidaroma F, nes svoris minV=11 i F maziausias.
+
+	POVEIKSMIS_5.1. Tikrinama F -> D.
+	BUSENA.         Rasta pigiau A -> D, svoris minV=25.
+
+	POVEIKSMIS_5.2. Tikrinama F -> E.
+	BUSENA.         Rasta pigiau A -> E, svoris minV=21.
+
+VEIKSMAS_6. Uzdaroma F, atidaroma C, nes svoris minV=12 i C maziausias.
+
+	POVEIKSMIS_6.1. Tikrinama C -> D.
+	BUSENA.         Rasta pigiau A -> D, svoris minV=19.
+
+	POVEIKSMIS_6.2. Tikrinama C -> I.
+	BUSENA.         Rasta pigiau A -> I, svoris minV=14.
+
+VEIKSMAS_7. Uzdaroma C, atidaroma I, nes svoris minV=14 i I maziausias.
+
+VEIKSMAS_8. Uzdaroma I, atidaroma D, nes svoris minV=19 i D maziausias.
+
+VEIKSMAS_9. Uzdaroma D. Darbas baigtas.
+
+DALIS 3.1. Rezultatas.
+
+Pigiausias skrydis A -> E kainuoja 21 Eur.
+
+Skrydzio marsrutas.
+A -> H -> G -> F -> E.
