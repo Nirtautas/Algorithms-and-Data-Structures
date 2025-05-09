@@ -1,0 +1,1236 @@
+=========================================
+1 DALIS - Salyga, informacija:
+
+UZDUOTIS nr. 2, VARIANTAS 8.
+AUTORIUS: Nirtautas Sadauskas (2213798) | GRUPE: 2 | POGRUPIS: 2.
+SALYGA: Parasyti programa sprendziancia sudoku.
+=========================================
+1.1. DALIS - Duomenys:
+
+-------------->Y
+|040|020|865
+|700|608|000
+|100|004|702
+------------
+|018|740|000
+|005|209|600
+|000|086|150
+------------
+|901|500|006
+|000|802|007
+|873|060|020
+|
+V
+X
+
+Tusciu langeliu: 45.
+Uzpildytu langeliu: 36.
+=========================================
+2 DALIS - Sprendimas:
+
+         1) Dedamas numeris 1 vietoje: (X = 1, Y = 1) - FAIL.
+         2) Dedamas numeris 2 vietoje: (X = 1, Y = 1) - FAIL.
+         3) Dedamas numeris 3 vietoje: (X = 1, Y = 1) - OK.
+         4) -Dedamas numeris 1 vietoje: (X = 1, Y = 3) - FAIL.
+         5) -Dedamas numeris 2 vietoje: (X = 1, Y = 3) - FAIL.
+         6) -Dedamas numeris 3 vietoje: (X = 1, Y = 3) - FAIL.
+         7) -Dedamas numeris 4 vietoje: (X = 1, Y = 3) - FAIL.
+         8) -Dedamas numeris 5 vietoje: (X = 1, Y = 3) - FAIL.
+         9) -Dedamas numeris 6 vietoje: (X = 1, Y = 3) - FAIL.
+        10) -Dedamas numeris 7 vietoje: (X = 1, Y = 3) - FAIL.
+        11) -Dedamas numeris 8 vietoje: (X = 1, Y = 3) - FAIL.
+        12) -Dedamas numeris 9 vietoje: (X = 1, Y = 3) - OK.
+        13) --Dedamas numeris 1 vietoje: (X = 1, Y = 4) - OK.
+        14) ---Dedamas numeris 1 vietoje: (X = 1, Y = 6) - FAIL.
+        15) ---Dedamas numeris 2 vietoje: (X = 1, Y = 6) - FAIL.
+        16) ---Dedamas numeris 3 vietoje: (X = 1, Y = 6) - FAIL.
+        17) ---Dedamas numeris 4 vietoje: (X = 1, Y = 6) - FAIL.
+        18) ---Dedamas numeris 5 vietoje: (X = 1, Y = 6) - FAIL.
+        19) ---Dedamas numeris 6 vietoje: (X = 1, Y = 6) - FAIL.
+        20) ---Dedamas numeris 7 vietoje: (X = 1, Y = 6) - OK.
+        21) ----Dedamas numeris 1 vietoje: (X = 2, Y = 2) - FAIL.
+        22) ----Dedamas numeris 2 vietoje: (X = 2, Y = 2) - OK.
+        23) -----Dedamas numeris 1 vietoje: (X = 2, Y = 3) - FAIL.
+        24) -----Dedamas numeris 2 vietoje: (X = 2, Y = 3) - FAIL.
+        25) -----Dedamas numeris 3 vietoje: (X = 2, Y = 3) - FAIL.
+        26) -----Dedamas numeris 4 vietoje: (X = 2, Y = 3) - FAIL.
+        27) -----Dedamas numeris 5 vietoje: (X = 2, Y = 3) - FAIL.
+        28) -----Dedamas numeris 6 vietoje: (X = 2, Y = 3) - FAIL.
+        29) -----Dedamas numeris 7 vietoje: (X = 2, Y = 3) - FAIL.
+        30) -----Dedamas numeris 8 vietoje: (X = 2, Y = 3) - FAIL.
+        31) -----Dedamas numeris 9 vietoje: (X = 2, Y = 3) - FAIL, BACKTRACK 1 times.
+        32) ----Dedamas numeris 3 vietoje: (X = 2, Y = 2) - FAIL.
+        33) ----Dedamas numeris 4 vietoje: (X = 2, Y = 2) - FAIL.
+        34) ----Dedamas numeris 5 vietoje: (X = 2, Y = 2) - OK.
+        35) -----Dedamas numeris 1 vietoje: (X = 2, Y = 3) - FAIL.
+        36) -----Dedamas numeris 2 vietoje: (X = 2, Y = 3) - OK.
+        37) ------Dedamas numeris 1 vietoje: (X = 2, Y = 5) - FAIL.
+        38) ------Dedamas numeris 2 vietoje: (X = 2, Y = 5) - FAIL.
+        39) ------Dedamas numeris 3 vietoje: (X = 2, Y = 5) - OK.
+        40) -------Dedamas numeris 1 vietoje: (X = 2, Y = 7) - FAIL.
+        41) -------Dedamas numeris 2 vietoje: (X = 2, Y = 7) - FAIL.
+        42) -------Dedamas numeris 3 vietoje: (X = 2, Y = 7) - FAIL.
+        43) -------Dedamas numeris 4 vietoje: (X = 2, Y = 7) - OK.
+        44) --------Dedamas numeris 1 vietoje: (X = 2, Y = 8) - OK.
+        45) ---------Dedamas numeris 1 vietoje: (X = 2, Y = 9) - FAIL.
+        46) ---------Dedamas numeris 2 vietoje: (X = 2, Y = 9) - FAIL.
+        47) ---------Dedamas numeris 3 vietoje: (X = 2, Y = 9) - FAIL.
+        48) ---------Dedamas numeris 4 vietoje: (X = 2, Y = 9) - FAIL.
+        49) ---------Dedamas numeris 5 vietoje: (X = 2, Y = 9) - FAIL.
+        50) ---------Dedamas numeris 6 vietoje: (X = 2, Y = 9) - FAIL.
+        51) ---------Dedamas numeris 7 vietoje: (X = 2, Y = 9) - FAIL.
+        52) ---------Dedamas numeris 8 vietoje: (X = 2, Y = 9) - FAIL.
+        53) ---------Dedamas numeris 9 vietoje: (X = 2, Y = 9) - OK.
+        54) ----------Dedamas numeris 1 vietoje: (X = 3, Y = 2) - FAIL.
+        55) ----------Dedamas numeris 2 vietoje: (X = 3, Y = 2) - FAIL.
+        56) ----------Dedamas numeris 3 vietoje: (X = 3, Y = 2) - FAIL.
+        57) ----------Dedamas numeris 4 vietoje: (X = 3, Y = 2) - FAIL.
+        58) ----------Dedamas numeris 5 vietoje: (X = 3, Y = 2) - FAIL.
+        59) ----------Dedamas numeris 6 vietoje: (X = 3, Y = 2) - OK.
+        60) -----------Dedamas numeris 1 vietoje: (X = 3, Y = 3) - FAIL.
+        61) -----------Dedamas numeris 2 vietoje: (X = 3, Y = 3) - FAIL.
+        62) -----------Dedamas numeris 3 vietoje: (X = 3, Y = 3) - FAIL.
+        63) -----------Dedamas numeris 4 vietoje: (X = 3, Y = 3) - FAIL.
+        64) -----------Dedamas numeris 5 vietoje: (X = 3, Y = 3) - FAIL.
+        65) -----------Dedamas numeris 6 vietoje: (X = 3, Y = 3) - FAIL.
+        66) -----------Dedamas numeris 7 vietoje: (X = 3, Y = 3) - FAIL.
+        67) -----------Dedamas numeris 8 vietoje: (X = 3, Y = 3) - FAIL.
+        68) -----------Dedamas numeris 9 vietoje: (X = 3, Y = 3) - FAIL, BACKTRACK 1 times.
+        69) ----------Dedamas numeris 7 vietoje: (X = 3, Y = 2) - FAIL.
+        70) ----------Dedamas numeris 8 vietoje: (X = 3, Y = 2) - OK.
+        71) -----------Dedamas numeris 1 vietoje: (X = 3, Y = 3) - FAIL.
+        72) -----------Dedamas numeris 2 vietoje: (X = 3, Y = 3) - FAIL.
+        73) -----------Dedamas numeris 3 vietoje: (X = 3, Y = 3) - FAIL.
+        74) -----------Dedamas numeris 4 vietoje: (X = 3, Y = 3) - FAIL.
+        75) -----------Dedamas numeris 5 vietoje: (X = 3, Y = 3) - FAIL.
+        76) -----------Dedamas numeris 6 vietoje: (X = 3, Y = 3) - OK.
+        77) ------------Dedamas numeris 1 vietoje: (X = 3, Y = 4) - FAIL.
+        78) ------------Dedamas numeris 2 vietoje: (X = 3, Y = 4) - FAIL.
+        79) ------------Dedamas numeris 3 vietoje: (X = 3, Y = 4) - FAIL.
+        80) ------------Dedamas numeris 4 vietoje: (X = 3, Y = 4) - FAIL.
+        81) ------------Dedamas numeris 5 vietoje: (X = 3, Y = 4) - FAIL.
+        82) ------------Dedamas numeris 6 vietoje: (X = 3, Y = 4) - FAIL.
+        83) ------------Dedamas numeris 7 vietoje: (X = 3, Y = 4) - FAIL.
+        84) ------------Dedamas numeris 8 vietoje: (X = 3, Y = 4) - FAIL.
+        85) ------------Dedamas numeris 9 vietoje: (X = 3, Y = 4) - OK.
+        86) -------------Dedamas numeris 1 vietoje: (X = 3, Y = 5) - FAIL.
+        87) -------------Dedamas numeris 2 vietoje: (X = 3, Y = 5) - FAIL.
+        88) -------------Dedamas numeris 3 vietoje: (X = 3, Y = 5) - FAIL.
+        89) -------------Dedamas numeris 4 vietoje: (X = 3, Y = 5) - FAIL.
+        90) -------------Dedamas numeris 5 vietoje: (X = 3, Y = 5) - OK.
+        91) --------------Dedamas numeris 1 vietoje: (X = 3, Y = 8) - FAIL.
+        92) --------------Dedamas numeris 2 vietoje: (X = 3, Y = 8) - FAIL.
+        93) --------------Dedamas numeris 3 vietoje: (X = 3, Y = 8) - OK.
+        94) ---------------Dedamas numeris 1 vietoje: (X = 4, Y = 1) - FAIL.
+        95) ---------------Dedamas numeris 2 vietoje: (X = 4, Y = 1) - OK.
+        96) ----------------Dedamas numeris 1 vietoje: (X = 4, Y = 6) - FAIL.
+        97) ----------------Dedamas numeris 2 vietoje: (X = 4, Y = 6) - FAIL.
+        98) ----------------Dedamas numeris 3 vietoje: (X = 4, Y = 6) - OK.
+        99) -----------------Dedamas numeris 1 vietoje: (X = 4, Y = 7) - FAIL.
+       100) -----------------Dedamas numeris 2 vietoje: (X = 4, Y = 7) - FAIL.
+       101) -----------------Dedamas numeris 3 vietoje: (X = 4, Y = 7) - FAIL.
+       102) -----------------Dedamas numeris 4 vietoje: (X = 4, Y = 7) - FAIL.
+       103) -----------------Dedamas numeris 5 vietoje: (X = 4, Y = 7) - FAIL.
+       104) -----------------Dedamas numeris 6 vietoje: (X = 4, Y = 7) - FAIL.
+       105) -----------------Dedamas numeris 7 vietoje: (X = 4, Y = 7) - FAIL.
+       106) -----------------Dedamas numeris 8 vietoje: (X = 4, Y = 7) - FAIL.
+       107) -----------------Dedamas numeris 9 vietoje: (X = 4, Y = 7) - OK.
+       108) ------------------Dedamas numeris 1 vietoje: (X = 4, Y = 8) - FAIL.
+       109) ------------------Dedamas numeris 2 vietoje: (X = 4, Y = 8) - FAIL.
+       110) ------------------Dedamas numeris 3 vietoje: (X = 4, Y = 8) - FAIL.
+       111) ------------------Dedamas numeris 4 vietoje: (X = 4, Y = 8) - FAIL.
+       112) ------------------Dedamas numeris 5 vietoje: (X = 4, Y = 8) - FAIL.
+       113) ------------------Dedamas numeris 6 vietoje: (X = 4, Y = 8) - FAIL.
+       114) ------------------Dedamas numeris 7 vietoje: (X = 4, Y = 8) - FAIL.
+       115) ------------------Dedamas numeris 8 vietoje: (X = 4, Y = 8) - FAIL.
+       116) ------------------Dedamas numeris 9 vietoje: (X = 4, Y = 8) - FAIL, BACKTRACK 2 times.
+       117) ----------------Dedamas numeris 4 vietoje: (X = 4, Y = 6) - FAIL.
+       118) ----------------Dedamas numeris 5 vietoje: (X = 4, Y = 6) - OK.
+       119) -----------------Dedamas numeris 1 vietoje: (X = 4, Y = 7) - FAIL.
+       120) -----------------Dedamas numeris 2 vietoje: (X = 4, Y = 7) - FAIL.
+       121) -----------------Dedamas numeris 3 vietoje: (X = 4, Y = 7) - OK.
+       122) ------------------Dedamas numeris 1 vietoje: (X = 4, Y = 8) - FAIL.
+       123) ------------------Dedamas numeris 2 vietoje: (X = 4, Y = 8) - FAIL.
+       124) ------------------Dedamas numeris 3 vietoje: (X = 4, Y = 8) - FAIL.
+       125) ------------------Dedamas numeris 4 vietoje: (X = 4, Y = 8) - FAIL.
+       126) ------------------Dedamas numeris 5 vietoje: (X = 4, Y = 8) - FAIL.
+       127) ------------------Dedamas numeris 6 vietoje: (X = 4, Y = 8) - FAIL.
+       128) ------------------Dedamas numeris 7 vietoje: (X = 4, Y = 8) - FAIL.
+       129) ------------------Dedamas numeris 8 vietoje: (X = 4, Y = 8) - FAIL.
+       130) ------------------Dedamas numeris 9 vietoje: (X = 4, Y = 8) - OK.
+       131) -------------------Dedamas numeris 1 vietoje: (X = 4, Y = 9) - FAIL.
+       132) -------------------Dedamas numeris 2 vietoje: (X = 4, Y = 9) - FAIL.
+       133) -------------------Dedamas numeris 3 vietoje: (X = 4, Y = 9) - FAIL.
+       134) -------------------Dedamas numeris 4 vietoje: (X = 4, Y = 9) - FAIL.
+       135) -------------------Dedamas numeris 5 vietoje: (X = 4, Y = 9) - FAIL.
+       136) -------------------Dedamas numeris 6 vietoje: (X = 4, Y = 9) - FAIL.
+       137) -------------------Dedamas numeris 7 vietoje: (X = 4, Y = 9) - FAIL.
+       138) -------------------Dedamas numeris 8 vietoje: (X = 4, Y = 9) - FAIL.
+       139) -------------------Dedamas numeris 9 vietoje: (X = 4, Y = 9) - FAIL, BACKTRACK 2 times.
+       140) -----------------Dedamas numeris 4 vietoje: (X = 4, Y = 7) - FAIL.
+       141) -----------------Dedamas numeris 5 vietoje: (X = 4, Y = 7) - FAIL.
+       142) -----------------Dedamas numeris 6 vietoje: (X = 4, Y = 7) - FAIL.
+       143) -----------------Dedamas numeris 7 vietoje: (X = 4, Y = 7) - FAIL.
+       144) -----------------Dedamas numeris 8 vietoje: (X = 4, Y = 7) - FAIL.
+       145) -----------------Dedamas numeris 9 vietoje: (X = 4, Y = 7) - OK.
+       146) ------------------Dedamas numeris 1 vietoje: (X = 4, Y = 8) - FAIL.
+       147) ------------------Dedamas numeris 2 vietoje: (X = 4, Y = 8) - FAIL.
+       148) ------------------Dedamas numeris 3 vietoje: (X = 4, Y = 8) - FAIL.
+       149) ------------------Dedamas numeris 4 vietoje: (X = 4, Y = 8) - FAIL.
+       150) ------------------Dedamas numeris 5 vietoje: (X = 4, Y = 8) - FAIL.
+       151) ------------------Dedamas numeris 6 vietoje: (X = 4, Y = 8) - FAIL.
+       152) ------------------Dedamas numeris 7 vietoje: (X = 4, Y = 8) - FAIL.
+       153) ------------------Dedamas numeris 8 vietoje: (X = 4, Y = 8) - FAIL.
+       154) ------------------Dedamas numeris 9 vietoje: (X = 4, Y = 8) - FAIL, BACKTRACK 2 times.
+       155) ----------------Dedamas numeris 6 vietoje: (X = 4, Y = 6) - FAIL.
+       156) ----------------Dedamas numeris 7 vietoje: (X = 4, Y = 6) - FAIL.
+       157) ----------------Dedamas numeris 8 vietoje: (X = 4, Y = 6) - FAIL.
+       158) ----------------Dedamas numeris 9 vietoje: (X = 4, Y = 6) - FAIL, BACKTRACK 1 times.
+       159) ---------------Dedamas numeris 3 vietoje: (X = 4, Y = 1) - FAIL.
+       160) ---------------Dedamas numeris 4 vietoje: (X = 4, Y = 1) - FAIL.
+       161) ---------------Dedamas numeris 5 vietoje: (X = 4, Y = 1) - FAIL.
+       162) ---------------Dedamas numeris 6 vietoje: (X = 4, Y = 1) - OK.
+       163) ----------------Dedamas numeris 1 vietoje: (X = 4, Y = 6) - FAIL.
+       164) ----------------Dedamas numeris 2 vietoje: (X = 4, Y = 6) - FAIL.
+       165) ----------------Dedamas numeris 3 vietoje: (X = 4, Y = 6) - OK.
+       166) -----------------Dedamas numeris 1 vietoje: (X = 4, Y = 7) - FAIL.
+       167) -----------------Dedamas numeris 2 vietoje: (X = 4, Y = 7) - OK.
+       168) ------------------Dedamas numeris 1 vietoje: (X = 4, Y = 8) - FAIL.
+       169) ------------------Dedamas numeris 2 vietoje: (X = 4, Y = 8) - FAIL.
+       170) ------------------Dedamas numeris 3 vietoje: (X = 4, Y = 8) - FAIL.
+       171) ------------------Dedamas numeris 4 vietoje: (X = 4, Y = 8) - FAIL.
+       172) ------------------Dedamas numeris 5 vietoje: (X = 4, Y = 8) - FAIL.
+       173) ------------------Dedamas numeris 6 vietoje: (X = 4, Y = 8) - FAIL.
+       174) ------------------Dedamas numeris 7 vietoje: (X = 4, Y = 8) - FAIL.
+       175) ------------------Dedamas numeris 8 vietoje: (X = 4, Y = 8) - FAIL.
+       176) ------------------Dedamas numeris 9 vietoje: (X = 4, Y = 8) - OK.
+       177) -------------------Dedamas numeris 1 vietoje: (X = 4, Y = 9) - FAIL.
+       178) -------------------Dedamas numeris 2 vietoje: (X = 4, Y = 9) - FAIL.
+       179) -------------------Dedamas numeris 3 vietoje: (X = 4, Y = 9) - FAIL.
+       180) -------------------Dedamas numeris 4 vietoje: (X = 4, Y = 9) - FAIL.
+       181) -------------------Dedamas numeris 5 vietoje: (X = 4, Y = 9) - FAIL.
+       182) -------------------Dedamas numeris 6 vietoje: (X = 4, Y = 9) - FAIL.
+       183) -------------------Dedamas numeris 7 vietoje: (X = 4, Y = 9) - FAIL.
+       184) -------------------Dedamas numeris 8 vietoje: (X = 4, Y = 9) - FAIL.
+       185) -------------------Dedamas numeris 9 vietoje: (X = 4, Y = 9) - FAIL, BACKTRACK 2 times.
+       186) -----------------Dedamas numeris 3 vietoje: (X = 4, Y = 7) - FAIL.
+       187) -----------------Dedamas numeris 4 vietoje: (X = 4, Y = 7) - FAIL.
+       188) -----------------Dedamas numeris 5 vietoje: (X = 4, Y = 7) - FAIL.
+       189) -----------------Dedamas numeris 6 vietoje: (X = 4, Y = 7) - FAIL.
+       190) -----------------Dedamas numeris 7 vietoje: (X = 4, Y = 7) - FAIL.
+       191) -----------------Dedamas numeris 8 vietoje: (X = 4, Y = 7) - FAIL.
+       192) -----------------Dedamas numeris 9 vietoje: (X = 4, Y = 7) - OK.
+       193) ------------------Dedamas numeris 1 vietoje: (X = 4, Y = 8) - FAIL.
+       194) ------------------Dedamas numeris 2 vietoje: (X = 4, Y = 8) - FAIL.
+       195) ------------------Dedamas numeris 3 vietoje: (X = 4, Y = 8) - FAIL.
+       196) ------------------Dedamas numeris 4 vietoje: (X = 4, Y = 8) - FAIL.
+       197) ------------------Dedamas numeris 5 vietoje: (X = 4, Y = 8) - FAIL.
+       198) ------------------Dedamas numeris 6 vietoje: (X = 4, Y = 8) - FAIL.
+       199) ------------------Dedamas numeris 7 vietoje: (X = 4, Y = 8) - FAIL.
+       200) ------------------Dedamas numeris 8 vietoje: (X = 4, Y = 8) - FAIL.
+       201) ------------------Dedamas numeris 9 vietoje: (X = 4, Y = 8) - FAIL, BACKTRACK 2 times.
+       202) ----------------Dedamas numeris 4 vietoje: (X = 4, Y = 6) - FAIL.
+       203) ----------------Dedamas numeris 5 vietoje: (X = 4, Y = 6) - OK.
+       204) -----------------Dedamas numeris 1 vietoje: (X = 4, Y = 7) - FAIL.
+       205) -----------------Dedamas numeris 2 vietoje: (X = 4, Y = 7) - OK.
+       206) ------------------Dedamas numeris 1 vietoje: (X = 4, Y = 8) - FAIL.
+       207) ------------------Dedamas numeris 2 vietoje: (X = 4, Y = 8) - FAIL.
+       208) ------------------Dedamas numeris 3 vietoje: (X = 4, Y = 8) - FAIL.
+       209) ------------------Dedamas numeris 4 vietoje: (X = 4, Y = 8) - FAIL.
+       210) ------------------Dedamas numeris 5 vietoje: (X = 4, Y = 8) - FAIL.
+       211) ------------------Dedamas numeris 6 vietoje: (X = 4, Y = 8) - FAIL.
+       212) ------------------Dedamas numeris 7 vietoje: (X = 4, Y = 8) - FAIL.
+       213) ------------------Dedamas numeris 8 vietoje: (X = 4, Y = 8) - FAIL.
+       214) ------------------Dedamas numeris 9 vietoje: (X = 4, Y = 8) - OK.
+       215) -------------------Dedamas numeris 1 vietoje: (X = 4, Y = 9) - FAIL.
+       216) -------------------Dedamas numeris 2 vietoje: (X = 4, Y = 9) - FAIL.
+       217) -------------------Dedamas numeris 3 vietoje: (X = 4, Y = 9) - OK.
+       218) --------------------Dedamas numeris 1 vietoje: (X = 5, Y = 1) - FAIL.
+       219) --------------------Dedamas numeris 2 vietoje: (X = 5, Y = 1) - FAIL.
+       220) --------------------Dedamas numeris 3 vietoje: (X = 5, Y = 1) - FAIL.
+       221) --------------------Dedamas numeris 4 vietoje: (X = 5, Y = 1) - OK.
+       222) ---------------------Dedamas numeris 1 vietoje: (X = 5, Y = 2) - FAIL.
+       223) ---------------------Dedamas numeris 2 vietoje: (X = 5, Y = 2) - FAIL.
+       224) ---------------------Dedamas numeris 3 vietoje: (X = 5, Y = 2) - OK.
+       225) ----------------------Dedamas numeris 1 vietoje: (X = 5, Y = 5) - OK.
+       226) -----------------------Dedamas numeris 1 vietoje: (X = 5, Y = 8) - FAIL.
+       227) -----------------------Dedamas numeris 2 vietoje: (X = 5, Y = 8) - FAIL.
+       228) -----------------------Dedamas numeris 3 vietoje: (X = 5, Y = 8) - FAIL.
+       229) -----------------------Dedamas numeris 4 vietoje: (X = 5, Y = 8) - FAIL.
+       230) -----------------------Dedamas numeris 5 vietoje: (X = 5, Y = 8) - FAIL.
+       231) -----------------------Dedamas numeris 6 vietoje: (X = 5, Y = 8) - FAIL.
+       232) -----------------------Dedamas numeris 7 vietoje: (X = 5, Y = 8) - OK.
+       233) ------------------------Dedamas numeris 1 vietoje: (X = 5, Y = 9) - FAIL.
+       234) ------------------------Dedamas numeris 2 vietoje: (X = 5, Y = 9) - FAIL.
+       235) ------------------------Dedamas numeris 3 vietoje: (X = 5, Y = 9) - FAIL.
+       236) ------------------------Dedamas numeris 4 vietoje: (X = 5, Y = 9) - FAIL.
+       237) ------------------------Dedamas numeris 5 vietoje: (X = 5, Y = 9) - FAIL.
+       238) ------------------------Dedamas numeris 6 vietoje: (X = 5, Y = 9) - FAIL.
+       239) ------------------------Dedamas numeris 7 vietoje: (X = 5, Y = 9) - FAIL.
+       240) ------------------------Dedamas numeris 8 vietoje: (X = 5, Y = 9) - OK.
+       241) -------------------------Dedamas numeris 1 vietoje: (X = 6, Y = 1) - FAIL.
+       242) -------------------------Dedamas numeris 2 vietoje: (X = 6, Y = 1) - OK.
+       243) --------------------------Dedamas numeris 1 vietoje: (X = 6, Y = 2) - FAIL.
+       244) --------------------------Dedamas numeris 2 vietoje: (X = 6, Y = 2) - FAIL.
+       245) --------------------------Dedamas numeris 3 vietoje: (X = 6, Y = 2) - FAIL.
+       246) --------------------------Dedamas numeris 4 vietoje: (X = 6, Y = 2) - FAIL.
+       247) --------------------------Dedamas numeris 5 vietoje: (X = 6, Y = 2) - FAIL.
+       248) --------------------------Dedamas numeris 6 vietoje: (X = 6, Y = 2) - FAIL.
+       249) --------------------------Dedamas numeris 7 vietoje: (X = 6, Y = 2) - FAIL.
+       250) --------------------------Dedamas numeris 8 vietoje: (X = 6, Y = 2) - FAIL.
+       251) --------------------------Dedamas numeris 9 vietoje: (X = 6, Y = 2) - OK.
+       252) ---------------------------Dedamas numeris 1 vietoje: (X = 6, Y = 3) - FAIL.
+       253) ---------------------------Dedamas numeris 2 vietoje: (X = 6, Y = 3) - FAIL.
+       254) ---------------------------Dedamas numeris 3 vietoje: (X = 6, Y = 3) - FAIL.
+       255) ---------------------------Dedamas numeris 4 vietoje: (X = 6, Y = 3) - FAIL.
+       256) ---------------------------Dedamas numeris 5 vietoje: (X = 6, Y = 3) - FAIL.
+       257) ---------------------------Dedamas numeris 6 vietoje: (X = 6, Y = 3) - FAIL.
+       258) ---------------------------Dedamas numeris 7 vietoje: (X = 6, Y = 3) - OK.
+       259) ----------------------------Dedamas numeris 1 vietoje: (X = 6, Y = 4) - FAIL.
+       260) ----------------------------Dedamas numeris 2 vietoje: (X = 6, Y = 4) - FAIL.
+       261) ----------------------------Dedamas numeris 3 vietoje: (X = 6, Y = 4) - OK.
+       262) -----------------------------Dedamas numeris 1 vietoje: (X = 6, Y = 9) - FAIL.
+       263) -----------------------------Dedamas numeris 2 vietoje: (X = 6, Y = 9) - FAIL.
+       264) -----------------------------Dedamas numeris 3 vietoje: (X = 6, Y = 9) - FAIL.
+       265) -----------------------------Dedamas numeris 4 vietoje: (X = 6, Y = 9) - OK.
+       266) ------------------------------Dedamas numeris 1 vietoje: (X = 7, Y = 2) - FAIL.
+       267) ------------------------------Dedamas numeris 2 vietoje: (X = 7, Y = 2) - OK.
+       268) -------------------------------Dedamas numeris 1 vietoje: (X = 7, Y = 5) - FAIL.
+       269) -------------------------------Dedamas numeris 2 vietoje: (X = 7, Y = 5) - FAIL.
+       270) -------------------------------Dedamas numeris 3 vietoje: (X = 7, Y = 5) - FAIL.
+       271) -------------------------------Dedamas numeris 4 vietoje: (X = 7, Y = 5) - FAIL.
+       272) -------------------------------Dedamas numeris 5 vietoje: (X = 7, Y = 5) - FAIL.
+       273) -------------------------------Dedamas numeris 6 vietoje: (X = 7, Y = 5) - FAIL.
+       274) -------------------------------Dedamas numeris 7 vietoje: (X = 7, Y = 5) - OK.
+       275) --------------------------------Dedamas numeris 1 vietoje: (X = 7, Y = 6) - FAIL.
+       276) --------------------------------Dedamas numeris 2 vietoje: (X = 7, Y = 6) - FAIL.
+       277) --------------------------------Dedamas numeris 3 vietoje: (X = 7, Y = 6) - OK.
+       278) ---------------------------------Dedamas numeris 1 vietoje: (X = 7, Y = 7) - FAIL.
+       279) ---------------------------------Dedamas numeris 2 vietoje: (X = 7, Y = 7) - FAIL.
+       280) ---------------------------------Dedamas numeris 3 vietoje: (X = 7, Y = 7) - FAIL.
+       281) ---------------------------------Dedamas numeris 4 vietoje: (X = 7, Y = 7) - FAIL.
+       282) ---------------------------------Dedamas numeris 5 vietoje: (X = 7, Y = 7) - FAIL.
+       283) ---------------------------------Dedamas numeris 6 vietoje: (X = 7, Y = 7) - FAIL.
+       284) ---------------------------------Dedamas numeris 7 vietoje: (X = 7, Y = 7) - FAIL.
+       285) ---------------------------------Dedamas numeris 8 vietoje: (X = 7, Y = 7) - FAIL.
+       286) ---------------------------------Dedamas numeris 9 vietoje: (X = 7, Y = 7) - FAIL, BACKTRACK 1 times.
+       287) --------------------------------Dedamas numeris 4 vietoje: (X = 7, Y = 6) - FAIL.
+       288) --------------------------------Dedamas numeris 5 vietoje: (X = 7, Y = 6) - FAIL.
+       289) --------------------------------Dedamas numeris 6 vietoje: (X = 7, Y = 6) - FAIL.
+       290) --------------------------------Dedamas numeris 7 vietoje: (X = 7, Y = 6) - FAIL.
+       291) --------------------------------Dedamas numeris 8 vietoje: (X = 7, Y = 6) - FAIL.
+       292) --------------------------------Dedamas numeris 9 vietoje: (X = 7, Y = 6) - FAIL, BACKTRACK 1 times.
+       293) -------------------------------Dedamas numeris 8 vietoje: (X = 7, Y = 5) - FAIL.
+       294) -------------------------------Dedamas numeris 9 vietoje: (X = 7, Y = 5) - FAIL, BACKTRACK 1 times.
+       295) ------------------------------Dedamas numeris 3 vietoje: (X = 7, Y = 2) - FAIL.
+       296) ------------------------------Dedamas numeris 4 vietoje: (X = 7, Y = 2) - FAIL.
+       297) ------------------------------Dedamas numeris 5 vietoje: (X = 7, Y = 2) - FAIL.
+       298) ------------------------------Dedamas numeris 6 vietoje: (X = 7, Y = 2) - FAIL.
+       299) ------------------------------Dedamas numeris 7 vietoje: (X = 7, Y = 2) - FAIL.
+       300) ------------------------------Dedamas numeris 8 vietoje: (X = 7, Y = 2) - FAIL.
+       301) ------------------------------Dedamas numeris 9 vietoje: (X = 7, Y = 2) - FAIL, BACKTRACK 1 times.
+       302) -----------------------------Dedamas numeris 5 vietoje: (X = 6, Y = 9) - FAIL.
+       303) -----------------------------Dedamas numeris 6 vietoje: (X = 6, Y = 9) - FAIL.
+       304) -----------------------------Dedamas numeris 7 vietoje: (X = 6, Y = 9) - FAIL.
+       305) -----------------------------Dedamas numeris 8 vietoje: (X = 6, Y = 9) - FAIL.
+       306) -----------------------------Dedamas numeris 9 vietoje: (X = 6, Y = 9) - FAIL, BACKTRACK 1 times.
+       307) ----------------------------Dedamas numeris 4 vietoje: (X = 6, Y = 4) - FAIL.
+       308) ----------------------------Dedamas numeris 5 vietoje: (X = 6, Y = 4) - FAIL.
+       309) ----------------------------Dedamas numeris 6 vietoje: (X = 6, Y = 4) - FAIL.
+       310) ----------------------------Dedamas numeris 7 vietoje: (X = 6, Y = 4) - FAIL.
+       311) ----------------------------Dedamas numeris 8 vietoje: (X = 6, Y = 4) - FAIL.
+       312) ----------------------------Dedamas numeris 9 vietoje: (X = 6, Y = 4) - FAIL, BACKTRACK 1 times.
+       313) ---------------------------Dedamas numeris 8 vietoje: (X = 6, Y = 3) - FAIL.
+       314) ---------------------------Dedamas numeris 9 vietoje: (X = 6, Y = 3) - FAIL, BACKTRACK 2 times.
+       315) -------------------------Dedamas numeris 3 vietoje: (X = 6, Y = 1) - FAIL.
+       316) -------------------------Dedamas numeris 4 vietoje: (X = 6, Y = 1) - FAIL.
+       317) -------------------------Dedamas numeris 5 vietoje: (X = 6, Y = 1) - FAIL.
+       318) -------------------------Dedamas numeris 6 vietoje: (X = 6, Y = 1) - FAIL.
+       319) -------------------------Dedamas numeris 7 vietoje: (X = 6, Y = 1) - FAIL.
+       320) -------------------------Dedamas numeris 8 vietoje: (X = 6, Y = 1) - FAIL.
+       321) -------------------------Dedamas numeris 9 vietoje: (X = 6, Y = 1) - FAIL, BACKTRACK 1 times.
+       322) ------------------------Dedamas numeris 9 vietoje: (X = 5, Y = 9) - FAIL, BACKTRACK 1 times.
+       323) -----------------------Dedamas numeris 8 vietoje: (X = 5, Y = 8) - OK.
+       324) ------------------------Dedamas numeris 1 vietoje: (X = 5, Y = 9) - FAIL.
+       325) ------------------------Dedamas numeris 2 vietoje: (X = 5, Y = 9) - FAIL.
+       326) ------------------------Dedamas numeris 3 vietoje: (X = 5, Y = 9) - FAIL.
+       327) ------------------------Dedamas numeris 4 vietoje: (X = 5, Y = 9) - FAIL.
+       328) ------------------------Dedamas numeris 5 vietoje: (X = 5, Y = 9) - FAIL.
+       329) ------------------------Dedamas numeris 6 vietoje: (X = 5, Y = 9) - FAIL.
+       330) ------------------------Dedamas numeris 7 vietoje: (X = 5, Y = 9) - FAIL.
+       331) ------------------------Dedamas numeris 8 vietoje: (X = 5, Y = 9) - FAIL.
+       332) ------------------------Dedamas numeris 9 vietoje: (X = 5, Y = 9) - FAIL, BACKTRACK 1 times.
+       333) -----------------------Dedamas numeris 9 vietoje: (X = 5, Y = 8) - FAIL, BACKTRACK 1 times.
+       334) ----------------------Dedamas numeris 2 vietoje: (X = 5, Y = 5) - FAIL.
+       335) ----------------------Dedamas numeris 3 vietoje: (X = 5, Y = 5) - FAIL.
+       336) ----------------------Dedamas numeris 4 vietoje: (X = 5, Y = 5) - FAIL.
+       337) ----------------------Dedamas numeris 5 vietoje: (X = 5, Y = 5) - FAIL.
+       338) ----------------------Dedamas numeris 6 vietoje: (X = 5, Y = 5) - FAIL.
+       339) ----------------------Dedamas numeris 7 vietoje: (X = 5, Y = 5) - FAIL.
+       340) ----------------------Dedamas numeris 8 vietoje: (X = 5, Y = 5) - FAIL.
+       341) ----------------------Dedamas numeris 9 vietoje: (X = 5, Y = 5) - FAIL, BACKTRACK 1 times.
+       342) ---------------------Dedamas numeris 4 vietoje: (X = 5, Y = 2) - FAIL.
+       343) ---------------------Dedamas numeris 5 vietoje: (X = 5, Y = 2) - FAIL.
+       344) ---------------------Dedamas numeris 6 vietoje: (X = 5, Y = 2) - FAIL.
+       345) ---------------------Dedamas numeris 7 vietoje: (X = 5, Y = 2) - FAIL.
+       346) ---------------------Dedamas numeris 8 vietoje: (X = 5, Y = 2) - FAIL.
+       347) ---------------------Dedamas numeris 9 vietoje: (X = 5, Y = 2) - FAIL, BACKTRACK 1 times.
+       348) --------------------Dedamas numeris 5 vietoje: (X = 5, Y = 1) - FAIL.
+       349) --------------------Dedamas numeris 6 vietoje: (X = 5, Y = 1) - FAIL.
+       350) --------------------Dedamas numeris 7 vietoje: (X = 5, Y = 1) - FAIL.
+       351) --------------------Dedamas numeris 8 vietoje: (X = 5, Y = 1) - FAIL.
+       352) --------------------Dedamas numeris 9 vietoje: (X = 5, Y = 1) - FAIL, BACKTRACK 1 times.
+       353) -------------------Dedamas numeris 4 vietoje: (X = 4, Y = 9) - FAIL.
+       354) -------------------Dedamas numeris 5 vietoje: (X = 4, Y = 9) - FAIL.
+       355) -------------------Dedamas numeris 6 vietoje: (X = 4, Y = 9) - FAIL.
+       356) -------------------Dedamas numeris 7 vietoje: (X = 4, Y = 9) - FAIL.
+       357) -------------------Dedamas numeris 8 vietoje: (X = 4, Y = 9) - FAIL.
+       358) -------------------Dedamas numeris 9 vietoje: (X = 4, Y = 9) - FAIL, BACKTRACK 2 times.
+       359) -----------------Dedamas numeris 3 vietoje: (X = 4, Y = 7) - OK.
+       360) ------------------Dedamas numeris 1 vietoje: (X = 4, Y = 8) - FAIL.
+       361) ------------------Dedamas numeris 2 vietoje: (X = 4, Y = 8) - FAIL.
+       362) ------------------Dedamas numeris 3 vietoje: (X = 4, Y = 8) - FAIL.
+       363) ------------------Dedamas numeris 4 vietoje: (X = 4, Y = 8) - FAIL.
+       364) ------------------Dedamas numeris 5 vietoje: (X = 4, Y = 8) - FAIL.
+       365) ------------------Dedamas numeris 6 vietoje: (X = 4, Y = 8) - FAIL.
+       366) ------------------Dedamas numeris 7 vietoje: (X = 4, Y = 8) - FAIL.
+       367) ------------------Dedamas numeris 8 vietoje: (X = 4, Y = 8) - FAIL.
+       368) ------------------Dedamas numeris 9 vietoje: (X = 4, Y = 8) - OK.
+       369) -------------------Dedamas numeris 1 vietoje: (X = 4, Y = 9) - FAIL.
+       370) -------------------Dedamas numeris 2 vietoje: (X = 4, Y = 9) - FAIL.
+       371) -------------------Dedamas numeris 3 vietoje: (X = 4, Y = 9) - FAIL.
+       372) -------------------Dedamas numeris 4 vietoje: (X = 4, Y = 9) - FAIL.
+       373) -------------------Dedamas numeris 5 vietoje: (X = 4, Y = 9) - FAIL.
+       374) -------------------Dedamas numeris 6 vietoje: (X = 4, Y = 9) - FAIL.
+       375) -------------------Dedamas numeris 7 vietoje: (X = 4, Y = 9) - FAIL.
+       376) -------------------Dedamas numeris 8 vietoje: (X = 4, Y = 9) - FAIL.
+       377) -------------------Dedamas numeris 9 vietoje: (X = 4, Y = 9) - FAIL, BACKTRACK 2 times.
+       378) -----------------Dedamas numeris 4 vietoje: (X = 4, Y = 7) - FAIL.
+       379) -----------------Dedamas numeris 5 vietoje: (X = 4, Y = 7) - FAIL.
+       380) -----------------Dedamas numeris 6 vietoje: (X = 4, Y = 7) - FAIL.
+       381) -----------------Dedamas numeris 7 vietoje: (X = 4, Y = 7) - FAIL.
+       382) -----------------Dedamas numeris 8 vietoje: (X = 4, Y = 7) - FAIL.
+       383) -----------------Dedamas numeris 9 vietoje: (X = 4, Y = 7) - OK.
+       384) ------------------Dedamas numeris 1 vietoje: (X = 4, Y = 8) - FAIL.
+       385) ------------------Dedamas numeris 2 vietoje: (X = 4, Y = 8) - FAIL.
+       386) ------------------Dedamas numeris 3 vietoje: (X = 4, Y = 8) - FAIL.
+       387) ------------------Dedamas numeris 4 vietoje: (X = 4, Y = 8) - FAIL.
+       388) ------------------Dedamas numeris 5 vietoje: (X = 4, Y = 8) - FAIL.
+       389) ------------------Dedamas numeris 6 vietoje: (X = 4, Y = 8) - FAIL.
+       390) ------------------Dedamas numeris 7 vietoje: (X = 4, Y = 8) - FAIL.
+       391) ------------------Dedamas numeris 8 vietoje: (X = 4, Y = 8) - FAIL.
+       392) ------------------Dedamas numeris 9 vietoje: (X = 4, Y = 8) - FAIL, BACKTRACK 2 times.
+       393) ----------------Dedamas numeris 6 vietoje: (X = 4, Y = 6) - FAIL.
+       394) ----------------Dedamas numeris 7 vietoje: (X = 4, Y = 6) - FAIL.
+       395) ----------------Dedamas numeris 8 vietoje: (X = 4, Y = 6) - FAIL.
+       396) ----------------Dedamas numeris 9 vietoje: (X = 4, Y = 6) - FAIL, BACKTRACK 1 times.
+       397) ---------------Dedamas numeris 7 vietoje: (X = 4, Y = 1) - FAIL.
+       398) ---------------Dedamas numeris 8 vietoje: (X = 4, Y = 1) - FAIL.
+       399) ---------------Dedamas numeris 9 vietoje: (X = 4, Y = 1) - FAIL, BACKTRACK 1 times.
+       400) --------------Dedamas numeris 4 vietoje: (X = 3, Y = 8) - FAIL.
+       401) --------------Dedamas numeris 5 vietoje: (X = 3, Y = 8) - FAIL.
+       402) --------------Dedamas numeris 6 vietoje: (X = 3, Y = 8) - FAIL.
+       403) --------------Dedamas numeris 7 vietoje: (X = 3, Y = 8) - FAIL.
+       404) --------------Dedamas numeris 8 vietoje: (X = 3, Y = 8) - FAIL.
+       405) --------------Dedamas numeris 9 vietoje: (X = 3, Y = 8) - FAIL, BACKTRACK 1 times.
+       406) -------------Dedamas numeris 6 vietoje: (X = 3, Y = 5) - FAIL.
+       407) -------------Dedamas numeris 7 vietoje: (X = 3, Y = 5) - FAIL.
+       408) -------------Dedamas numeris 8 vietoje: (X = 3, Y = 5) - FAIL.
+       409) -------------Dedamas numeris 9 vietoje: (X = 3, Y = 5) - FAIL, BACKTRACK 2 times.
+       410) -----------Dedamas numeris 7 vietoje: (X = 3, Y = 3) - FAIL.
+       411) -----------Dedamas numeris 8 vietoje: (X = 3, Y = 3) - FAIL.
+       412) -----------Dedamas numeris 9 vietoje: (X = 3, Y = 3) - FAIL, BACKTRACK 1 times.
+       413) ----------Dedamas numeris 9 vietoje: (X = 3, Y = 2) - FAIL, BACKTRACK 2 times.
+       414) --------Dedamas numeris 2 vietoje: (X = 2, Y = 8) - FAIL.
+       415) --------Dedamas numeris 3 vietoje: (X = 2, Y = 8) - FAIL.
+       416) --------Dedamas numeris 4 vietoje: (X = 2, Y = 8) - FAIL.
+       417) --------Dedamas numeris 5 vietoje: (X = 2, Y = 8) - FAIL.
+       418) --------Dedamas numeris 6 vietoje: (X = 2, Y = 8) - FAIL.
+       419) --------Dedamas numeris 7 vietoje: (X = 2, Y = 8) - FAIL.
+       420) --------Dedamas numeris 8 vietoje: (X = 2, Y = 8) - FAIL.
+       421) --------Dedamas numeris 9 vietoje: (X = 2, Y = 8) - OK.
+       422) ---------Dedamas numeris 1 vietoje: (X = 2, Y = 9) - OK.
+       423) ----------Dedamas numeris 1 vietoje: (X = 3, Y = 2) - FAIL.
+       424) ----------Dedamas numeris 2 vietoje: (X = 3, Y = 2) - FAIL.
+       425) ----------Dedamas numeris 3 vietoje: (X = 3, Y = 2) - FAIL.
+       426) ----------Dedamas numeris 4 vietoje: (X = 3, Y = 2) - FAIL.
+       427) ----------Dedamas numeris 5 vietoje: (X = 3, Y = 2) - FAIL.
+       428) ----------Dedamas numeris 6 vietoje: (X = 3, Y = 2) - OK.
+       429) -----------Dedamas numeris 1 vietoje: (X = 3, Y = 3) - FAIL.
+       430) -----------Dedamas numeris 2 vietoje: (X = 3, Y = 3) - FAIL.
+       431) -----------Dedamas numeris 3 vietoje: (X = 3, Y = 3) - FAIL.
+       432) -----------Dedamas numeris 4 vietoje: (X = 3, Y = 3) - FAIL.
+       433) -----------Dedamas numeris 5 vietoje: (X = 3, Y = 3) - FAIL.
+       434) -----------Dedamas numeris 6 vietoje: (X = 3, Y = 3) - FAIL.
+       435) -----------Dedamas numeris 7 vietoje: (X = 3, Y = 3) - FAIL.
+       436) -----------Dedamas numeris 8 vietoje: (X = 3, Y = 3) - FAIL.
+       437) -----------Dedamas numeris 9 vietoje: (X = 3, Y = 3) - FAIL, BACKTRACK 1 times.
+       438) ----------Dedamas numeris 7 vietoje: (X = 3, Y = 2) - FAIL.
+       439) ----------Dedamas numeris 8 vietoje: (X = 3, Y = 2) - OK.
+       440) -----------Dedamas numeris 1 vietoje: (X = 3, Y = 3) - FAIL.
+       441) -----------Dedamas numeris 2 vietoje: (X = 3, Y = 3) - FAIL.
+       442) -----------Dedamas numeris 3 vietoje: (X = 3, Y = 3) - FAIL.
+       443) -----------Dedamas numeris 4 vietoje: (X = 3, Y = 3) - FAIL.
+       444) -----------Dedamas numeris 5 vietoje: (X = 3, Y = 3) - FAIL.
+       445) -----------Dedamas numeris 6 vietoje: (X = 3, Y = 3) - OK.
+       446) ------------Dedamas numeris 1 vietoje: (X = 3, Y = 4) - FAIL.
+       447) ------------Dedamas numeris 2 vietoje: (X = 3, Y = 4) - FAIL.
+       448) ------------Dedamas numeris 3 vietoje: (X = 3, Y = 4) - FAIL.
+       449) ------------Dedamas numeris 4 vietoje: (X = 3, Y = 4) - FAIL.
+       450) ------------Dedamas numeris 5 vietoje: (X = 3, Y = 4) - FAIL.
+       451) ------------Dedamas numeris 6 vietoje: (X = 3, Y = 4) - FAIL.
+       452) ------------Dedamas numeris 7 vietoje: (X = 3, Y = 4) - FAIL.
+       453) ------------Dedamas numeris 8 vietoje: (X = 3, Y = 4) - FAIL.
+       454) ------------Dedamas numeris 9 vietoje: (X = 3, Y = 4) - OK.
+       455) -------------Dedamas numeris 1 vietoje: (X = 3, Y = 5) - FAIL.
+       456) -------------Dedamas numeris 2 vietoje: (X = 3, Y = 5) - FAIL.
+       457) -------------Dedamas numeris 3 vietoje: (X = 3, Y = 5) - FAIL.
+       458) -------------Dedamas numeris 4 vietoje: (X = 3, Y = 5) - FAIL.
+       459) -------------Dedamas numeris 5 vietoje: (X = 3, Y = 5) - OK.
+       460) --------------Dedamas numeris 1 vietoje: (X = 3, Y = 8) - FAIL.
+       461) --------------Dedamas numeris 2 vietoje: (X = 3, Y = 8) - FAIL.
+       462) --------------Dedamas numeris 3 vietoje: (X = 3, Y = 8) - OK.
+       463) ---------------Dedamas numeris 1 vietoje: (X = 4, Y = 1) - FAIL.
+       464) ---------------Dedamas numeris 2 vietoje: (X = 4, Y = 1) - OK.
+       465) ----------------Dedamas numeris 1 vietoje: (X = 4, Y = 6) - FAIL.
+       466) ----------------Dedamas numeris 2 vietoje: (X = 4, Y = 6) - FAIL.
+       467) ----------------Dedamas numeris 3 vietoje: (X = 4, Y = 6) - OK.
+       468) -----------------Dedamas numeris 1 vietoje: (X = 4, Y = 7) - FAIL.
+       469) -----------------Dedamas numeris 2 vietoje: (X = 4, Y = 7) - FAIL.
+       470) -----------------Dedamas numeris 3 vietoje: (X = 4, Y = 7) - FAIL.
+       471) -----------------Dedamas numeris 4 vietoje: (X = 4, Y = 7) - FAIL.
+       472) -----------------Dedamas numeris 5 vietoje: (X = 4, Y = 7) - FAIL.
+       473) -----------------Dedamas numeris 6 vietoje: (X = 4, Y = 7) - FAIL.
+       474) -----------------Dedamas numeris 7 vietoje: (X = 4, Y = 7) - FAIL.
+       475) -----------------Dedamas numeris 8 vietoje: (X = 4, Y = 7) - FAIL.
+       476) -----------------Dedamas numeris 9 vietoje: (X = 4, Y = 7) - OK.
+       477) ------------------Dedamas numeris 1 vietoje: (X = 4, Y = 8) - FAIL.
+       478) ------------------Dedamas numeris 2 vietoje: (X = 4, Y = 8) - FAIL.
+       479) ------------------Dedamas numeris 3 vietoje: (X = 4, Y = 8) - FAIL.
+       480) ------------------Dedamas numeris 4 vietoje: (X = 4, Y = 8) - FAIL.
+       481) ------------------Dedamas numeris 5 vietoje: (X = 4, Y = 8) - FAIL.
+       482) ------------------Dedamas numeris 6 vietoje: (X = 4, Y = 8) - FAIL.
+       483) ------------------Dedamas numeris 7 vietoje: (X = 4, Y = 8) - FAIL.
+       484) ------------------Dedamas numeris 8 vietoje: (X = 4, Y = 8) - FAIL.
+       485) ------------------Dedamas numeris 9 vietoje: (X = 4, Y = 8) - FAIL, BACKTRACK 2 times.
+       486) ----------------Dedamas numeris 4 vietoje: (X = 4, Y = 6) - FAIL.
+       487) ----------------Dedamas numeris 5 vietoje: (X = 4, Y = 6) - OK.
+       488) -----------------Dedamas numeris 1 vietoje: (X = 4, Y = 7) - FAIL.
+       489) -----------------Dedamas numeris 2 vietoje: (X = 4, Y = 7) - FAIL.
+       490) -----------------Dedamas numeris 3 vietoje: (X = 4, Y = 7) - OK.
+       491) ------------------Dedamas numeris 1 vietoje: (X = 4, Y = 8) - FAIL.
+       492) ------------------Dedamas numeris 2 vietoje: (X = 4, Y = 8) - FAIL.
+       493) ------------------Dedamas numeris 3 vietoje: (X = 4, Y = 8) - FAIL.
+       494) ------------------Dedamas numeris 4 vietoje: (X = 4, Y = 8) - FAIL.
+       495) ------------------Dedamas numeris 5 vietoje: (X = 4, Y = 8) - FAIL.
+       496) ------------------Dedamas numeris 6 vietoje: (X = 4, Y = 8) - FAIL.
+       497) ------------------Dedamas numeris 7 vietoje: (X = 4, Y = 8) - FAIL.
+       498) ------------------Dedamas numeris 8 vietoje: (X = 4, Y = 8) - FAIL.
+       499) ------------------Dedamas numeris 9 vietoje: (X = 4, Y = 8) - FAIL, BACKTRACK 1 times.
+       500) -----------------Dedamas numeris 4 vietoje: (X = 4, Y = 7) - FAIL.
+       501) -----------------Dedamas numeris 5 vietoje: (X = 4, Y = 7) - FAIL.
+       502) -----------------Dedamas numeris 6 vietoje: (X = 4, Y = 7) - FAIL.
+       503) -----------------Dedamas numeris 7 vietoje: (X = 4, Y = 7) - FAIL.
+       504) -----------------Dedamas numeris 8 vietoje: (X = 4, Y = 7) - FAIL.
+       505) -----------------Dedamas numeris 9 vietoje: (X = 4, Y = 7) - OK.
+       506) ------------------Dedamas numeris 1 vietoje: (X = 4, Y = 8) - FAIL.
+       507) ------------------Dedamas numeris 2 vietoje: (X = 4, Y = 8) - FAIL.
+       508) ------------------Dedamas numeris 3 vietoje: (X = 4, Y = 8) - FAIL.
+       509) ------------------Dedamas numeris 4 vietoje: (X = 4, Y = 8) - FAIL.
+       510) ------------------Dedamas numeris 5 vietoje: (X = 4, Y = 8) - FAIL.
+       511) ------------------Dedamas numeris 6 vietoje: (X = 4, Y = 8) - FAIL.
+       512) ------------------Dedamas numeris 7 vietoje: (X = 4, Y = 8) - FAIL.
+       513) ------------------Dedamas numeris 8 vietoje: (X = 4, Y = 8) - FAIL.
+       514) ------------------Dedamas numeris 9 vietoje: (X = 4, Y = 8) - FAIL, BACKTRACK 2 times.
+       515) ----------------Dedamas numeris 6 vietoje: (X = 4, Y = 6) - FAIL.
+       516) ----------------Dedamas numeris 7 vietoje: (X = 4, Y = 6) - FAIL.
+       517) ----------------Dedamas numeris 8 vietoje: (X = 4, Y = 6) - FAIL.
+       518) ----------------Dedamas numeris 9 vietoje: (X = 4, Y = 6) - FAIL, BACKTRACK 1 times.
+       519) ---------------Dedamas numeris 3 vietoje: (X = 4, Y = 1) - FAIL.
+       520) ---------------Dedamas numeris 4 vietoje: (X = 4, Y = 1) - FAIL.
+       521) ---------------Dedamas numeris 5 vietoje: (X = 4, Y = 1) - FAIL.
+       522) ---------------Dedamas numeris 6 vietoje: (X = 4, Y = 1) - OK.
+       523) ----------------Dedamas numeris 1 vietoje: (X = 4, Y = 6) - FAIL.
+       524) ----------------Dedamas numeris 2 vietoje: (X = 4, Y = 6) - FAIL.
+       525) ----------------Dedamas numeris 3 vietoje: (X = 4, Y = 6) - OK.
+       526) -----------------Dedamas numeris 1 vietoje: (X = 4, Y = 7) - FAIL.
+       527) -----------------Dedamas numeris 2 vietoje: (X = 4, Y = 7) - OK.
+       528) ------------------Dedamas numeris 1 vietoje: (X = 4, Y = 8) - FAIL.
+       529) ------------------Dedamas numeris 2 vietoje: (X = 4, Y = 8) - FAIL.
+       530) ------------------Dedamas numeris 3 vietoje: (X = 4, Y = 8) - FAIL.
+       531) ------------------Dedamas numeris 4 vietoje: (X = 4, Y = 8) - FAIL.
+       532) ------------------Dedamas numeris 5 vietoje: (X = 4, Y = 8) - FAIL.
+       533) ------------------Dedamas numeris 6 vietoje: (X = 4, Y = 8) - FAIL.
+       534) ------------------Dedamas numeris 7 vietoje: (X = 4, Y = 8) - FAIL.
+       535) ------------------Dedamas numeris 8 vietoje: (X = 4, Y = 8) - FAIL.
+       536) ------------------Dedamas numeris 9 vietoje: (X = 4, Y = 8) - FAIL, BACKTRACK 1 times.
+       537) -----------------Dedamas numeris 3 vietoje: (X = 4, Y = 7) - FAIL.
+       538) -----------------Dedamas numeris 4 vietoje: (X = 4, Y = 7) - FAIL.
+       539) -----------------Dedamas numeris 5 vietoje: (X = 4, Y = 7) - FAIL.
+       540) -----------------Dedamas numeris 6 vietoje: (X = 4, Y = 7) - FAIL.
+       541) -----------------Dedamas numeris 7 vietoje: (X = 4, Y = 7) - FAIL.
+       542) -----------------Dedamas numeris 8 vietoje: (X = 4, Y = 7) - FAIL.
+       543) -----------------Dedamas numeris 9 vietoje: (X = 4, Y = 7) - OK.
+       544) ------------------Dedamas numeris 1 vietoje: (X = 4, Y = 8) - FAIL.
+       545) ------------------Dedamas numeris 2 vietoje: (X = 4, Y = 8) - FAIL.
+       546) ------------------Dedamas numeris 3 vietoje: (X = 4, Y = 8) - FAIL.
+       547) ------------------Dedamas numeris 4 vietoje: (X = 4, Y = 8) - FAIL.
+       548) ------------------Dedamas numeris 5 vietoje: (X = 4, Y = 8) - FAIL.
+       549) ------------------Dedamas numeris 6 vietoje: (X = 4, Y = 8) - FAIL.
+       550) ------------------Dedamas numeris 7 vietoje: (X = 4, Y = 8) - FAIL.
+       551) ------------------Dedamas numeris 8 vietoje: (X = 4, Y = 8) - FAIL.
+       552) ------------------Dedamas numeris 9 vietoje: (X = 4, Y = 8) - FAIL, BACKTRACK 2 times.
+       553) ----------------Dedamas numeris 4 vietoje: (X = 4, Y = 6) - FAIL.
+       554) ----------------Dedamas numeris 5 vietoje: (X = 4, Y = 6) - OK.
+       555) -----------------Dedamas numeris 1 vietoje: (X = 4, Y = 7) - FAIL.
+       556) -----------------Dedamas numeris 2 vietoje: (X = 4, Y = 7) - OK.
+       557) ------------------Dedamas numeris 1 vietoje: (X = 4, Y = 8) - FAIL.
+       558) ------------------Dedamas numeris 2 vietoje: (X = 4, Y = 8) - FAIL.
+       559) ------------------Dedamas numeris 3 vietoje: (X = 4, Y = 8) - FAIL.
+       560) ------------------Dedamas numeris 4 vietoje: (X = 4, Y = 8) - FAIL.
+       561) ------------------Dedamas numeris 5 vietoje: (X = 4, Y = 8) - FAIL.
+       562) ------------------Dedamas numeris 6 vietoje: (X = 4, Y = 8) - FAIL.
+       563) ------------------Dedamas numeris 7 vietoje: (X = 4, Y = 8) - FAIL.
+       564) ------------------Dedamas numeris 8 vietoje: (X = 4, Y = 8) - FAIL.
+       565) ------------------Dedamas numeris 9 vietoje: (X = 4, Y = 8) - FAIL, BACKTRACK 1 times.
+       566) -----------------Dedamas numeris 3 vietoje: (X = 4, Y = 7) - OK.
+       567) ------------------Dedamas numeris 1 vietoje: (X = 4, Y = 8) - FAIL.
+       568) ------------------Dedamas numeris 2 vietoje: (X = 4, Y = 8) - FAIL.
+       569) ------------------Dedamas numeris 3 vietoje: (X = 4, Y = 8) - FAIL.
+       570) ------------------Dedamas numeris 4 vietoje: (X = 4, Y = 8) - FAIL.
+       571) ------------------Dedamas numeris 5 vietoje: (X = 4, Y = 8) - FAIL.
+       572) ------------------Dedamas numeris 6 vietoje: (X = 4, Y = 8) - FAIL.
+       573) ------------------Dedamas numeris 7 vietoje: (X = 4, Y = 8) - FAIL.
+       574) ------------------Dedamas numeris 8 vietoje: (X = 4, Y = 8) - FAIL.
+       575) ------------------Dedamas numeris 9 vietoje: (X = 4, Y = 8) - FAIL, BACKTRACK 1 times.
+       576) -----------------Dedamas numeris 4 vietoje: (X = 4, Y = 7) - FAIL.
+       577) -----------------Dedamas numeris 5 vietoje: (X = 4, Y = 7) - FAIL.
+       578) -----------------Dedamas numeris 6 vietoje: (X = 4, Y = 7) - FAIL.
+       579) -----------------Dedamas numeris 7 vietoje: (X = 4, Y = 7) - FAIL.
+       580) -----------------Dedamas numeris 8 vietoje: (X = 4, Y = 7) - FAIL.
+       581) -----------------Dedamas numeris 9 vietoje: (X = 4, Y = 7) - OK.
+       582) ------------------Dedamas numeris 1 vietoje: (X = 4, Y = 8) - FAIL.
+       583) ------------------Dedamas numeris 2 vietoje: (X = 4, Y = 8) - FAIL.
+       584) ------------------Dedamas numeris 3 vietoje: (X = 4, Y = 8) - FAIL.
+       585) ------------------Dedamas numeris 4 vietoje: (X = 4, Y = 8) - FAIL.
+       586) ------------------Dedamas numeris 5 vietoje: (X = 4, Y = 8) - FAIL.
+       587) ------------------Dedamas numeris 6 vietoje: (X = 4, Y = 8) - FAIL.
+       588) ------------------Dedamas numeris 7 vietoje: (X = 4, Y = 8) - FAIL.
+       589) ------------------Dedamas numeris 8 vietoje: (X = 4, Y = 8) - FAIL.
+       590) ------------------Dedamas numeris 9 vietoje: (X = 4, Y = 8) - FAIL, BACKTRACK 2 times.
+       591) ----------------Dedamas numeris 6 vietoje: (X = 4, Y = 6) - FAIL.
+       592) ----------------Dedamas numeris 7 vietoje: (X = 4, Y = 6) - FAIL.
+       593) ----------------Dedamas numeris 8 vietoje: (X = 4, Y = 6) - FAIL.
+       594) ----------------Dedamas numeris 9 vietoje: (X = 4, Y = 6) - FAIL, BACKTRACK 1 times.
+       595) ---------------Dedamas numeris 7 vietoje: (X = 4, Y = 1) - FAIL.
+       596) ---------------Dedamas numeris 8 vietoje: (X = 4, Y = 1) - FAIL.
+       597) ---------------Dedamas numeris 9 vietoje: (X = 4, Y = 1) - FAIL, BACKTRACK 1 times.
+       598) --------------Dedamas numeris 4 vietoje: (X = 3, Y = 8) - FAIL.
+       599) --------------Dedamas numeris 5 vietoje: (X = 3, Y = 8) - FAIL.
+       600) --------------Dedamas numeris 6 vietoje: (X = 3, Y = 8) - FAIL.
+       601) --------------Dedamas numeris 7 vietoje: (X = 3, Y = 8) - FAIL.
+       602) --------------Dedamas numeris 8 vietoje: (X = 3, Y = 8) - FAIL.
+       603) --------------Dedamas numeris 9 vietoje: (X = 3, Y = 8) - FAIL, BACKTRACK 1 times.
+       604) -------------Dedamas numeris 6 vietoje: (X = 3, Y = 5) - FAIL.
+       605) -------------Dedamas numeris 7 vietoje: (X = 3, Y = 5) - FAIL.
+       606) -------------Dedamas numeris 8 vietoje: (X = 3, Y = 5) - FAIL.
+       607) -------------Dedamas numeris 9 vietoje: (X = 3, Y = 5) - FAIL, BACKTRACK 2 times.
+       608) -----------Dedamas numeris 7 vietoje: (X = 3, Y = 3) - FAIL.
+       609) -----------Dedamas numeris 8 vietoje: (X = 3, Y = 3) - FAIL.
+       610) -----------Dedamas numeris 9 vietoje: (X = 3, Y = 3) - FAIL, BACKTRACK 1 times.
+       611) ----------Dedamas numeris 9 vietoje: (X = 3, Y = 2) - FAIL, BACKTRACK 1 times.
+       612) ---------Dedamas numeris 2 vietoje: (X = 2, Y = 9) - FAIL.
+       613) ---------Dedamas numeris 3 vietoje: (X = 2, Y = 9) - FAIL.
+       614) ---------Dedamas numeris 4 vietoje: (X = 2, Y = 9) - FAIL.
+       615) ---------Dedamas numeris 5 vietoje: (X = 2, Y = 9) - FAIL.
+       616) ---------Dedamas numeris 6 vietoje: (X = 2, Y = 9) - FAIL.
+       617) ---------Dedamas numeris 7 vietoje: (X = 2, Y = 9) - FAIL.
+       618) ---------Dedamas numeris 8 vietoje: (X = 2, Y = 9) - FAIL.
+       619) ---------Dedamas numeris 9 vietoje: (X = 2, Y = 9) - FAIL, BACKTRACK 2 times.
+       620) -------Dedamas numeris 5 vietoje: (X = 2, Y = 7) - FAIL.
+       621) -------Dedamas numeris 6 vietoje: (X = 2, Y = 7) - FAIL.
+       622) -------Dedamas numeris 7 vietoje: (X = 2, Y = 7) - FAIL.
+       623) -------Dedamas numeris 8 vietoje: (X = 2, Y = 7) - FAIL.
+       624) -------Dedamas numeris 9 vietoje: (X = 2, Y = 7) - OK.
+       625) --------Dedamas numeris 1 vietoje: (X = 2, Y = 8) - OK.
+       626) ---------Dedamas numeris 1 vietoje: (X = 2, Y = 9) - FAIL.
+       627) ---------Dedamas numeris 2 vietoje: (X = 2, Y = 9) - FAIL.
+       628) ---------Dedamas numeris 3 vietoje: (X = 2, Y = 9) - FAIL.
+       629) ---------Dedamas numeris 4 vietoje: (X = 2, Y = 9) - OK.
+       630) ----------Dedamas numeris 1 vietoje: (X = 3, Y = 2) - FAIL.
+       631) ----------Dedamas numeris 2 vietoje: (X = 3, Y = 2) - FAIL.
+       632) ----------Dedamas numeris 3 vietoje: (X = 3, Y = 2) - FAIL.
+       633) ----------Dedamas numeris 4 vietoje: (X = 3, Y = 2) - FAIL.
+       634) ----------Dedamas numeris 5 vietoje: (X = 3, Y = 2) - FAIL.
+       635) ----------Dedamas numeris 6 vietoje: (X = 3, Y = 2) - OK.
+       636) -----------Dedamas numeris 1 vietoje: (X = 3, Y = 3) - FAIL.
+       637) -----------Dedamas numeris 2 vietoje: (X = 3, Y = 3) - FAIL.
+       638) -----------Dedamas numeris 3 vietoje: (X = 3, Y = 3) - FAIL.
+       639) -----------Dedamas numeris 4 vietoje: (X = 3, Y = 3) - FAIL.
+       640) -----------Dedamas numeris 5 vietoje: (X = 3, Y = 3) - FAIL.
+       641) -----------Dedamas numeris 6 vietoje: (X = 3, Y = 3) - FAIL.
+       642) -----------Dedamas numeris 7 vietoje: (X = 3, Y = 3) - FAIL.
+       643) -----------Dedamas numeris 8 vietoje: (X = 3, Y = 3) - FAIL.
+       644) -----------Dedamas numeris 9 vietoje: (X = 3, Y = 3) - FAIL, BACKTRACK 1 times.
+       645) ----------Dedamas numeris 7 vietoje: (X = 3, Y = 2) - FAIL.
+       646) ----------Dedamas numeris 8 vietoje: (X = 3, Y = 2) - OK.
+       647) -----------Dedamas numeris 1 vietoje: (X = 3, Y = 3) - FAIL.
+       648) -----------Dedamas numeris 2 vietoje: (X = 3, Y = 3) - FAIL.
+       649) -----------Dedamas numeris 3 vietoje: (X = 3, Y = 3) - FAIL.
+       650) -----------Dedamas numeris 4 vietoje: (X = 3, Y = 3) - FAIL.
+       651) -----------Dedamas numeris 5 vietoje: (X = 3, Y = 3) - FAIL.
+       652) -----------Dedamas numeris 6 vietoje: (X = 3, Y = 3) - OK.
+       653) ------------Dedamas numeris 1 vietoje: (X = 3, Y = 4) - FAIL.
+       654) ------------Dedamas numeris 2 vietoje: (X = 3, Y = 4) - FAIL.
+       655) ------------Dedamas numeris 3 vietoje: (X = 3, Y = 4) - FAIL.
+       656) ------------Dedamas numeris 4 vietoje: (X = 3, Y = 4) - FAIL.
+       657) ------------Dedamas numeris 5 vietoje: (X = 3, Y = 4) - FAIL.
+       658) ------------Dedamas numeris 6 vietoje: (X = 3, Y = 4) - FAIL.
+       659) ------------Dedamas numeris 7 vietoje: (X = 3, Y = 4) - FAIL.
+       660) ------------Dedamas numeris 8 vietoje: (X = 3, Y = 4) - FAIL.
+       661) ------------Dedamas numeris 9 vietoje: (X = 3, Y = 4) - OK.
+       662) -------------Dedamas numeris 1 vietoje: (X = 3, Y = 5) - FAIL.
+       663) -------------Dedamas numeris 2 vietoje: (X = 3, Y = 5) - FAIL.
+       664) -------------Dedamas numeris 3 vietoje: (X = 3, Y = 5) - FAIL.
+       665) -------------Dedamas numeris 4 vietoje: (X = 3, Y = 5) - FAIL.
+       666) -------------Dedamas numeris 5 vietoje: (X = 3, Y = 5) - OK.
+       667) --------------Dedamas numeris 1 vietoje: (X = 3, Y = 8) - FAIL.
+       668) --------------Dedamas numeris 2 vietoje: (X = 3, Y = 8) - FAIL.
+       669) --------------Dedamas numeris 3 vietoje: (X = 3, Y = 8) - OK.
+       670) ---------------Dedamas numeris 1 vietoje: (X = 4, Y = 1) - FAIL.
+       671) ---------------Dedamas numeris 2 vietoje: (X = 4, Y = 1) - OK.
+       672) ----------------Dedamas numeris 1 vietoje: (X = 4, Y = 6) - FAIL.
+       673) ----------------Dedamas numeris 2 vietoje: (X = 4, Y = 6) - FAIL.
+       674) ----------------Dedamas numeris 3 vietoje: (X = 4, Y = 6) - OK.
+       675) -----------------Dedamas numeris 1 vietoje: (X = 4, Y = 7) - FAIL.
+       676) -----------------Dedamas numeris 2 vietoje: (X = 4, Y = 7) - FAIL.
+       677) -----------------Dedamas numeris 3 vietoje: (X = 4, Y = 7) - FAIL.
+       678) -----------------Dedamas numeris 4 vietoje: (X = 4, Y = 7) - FAIL.
+       679) -----------------Dedamas numeris 5 vietoje: (X = 4, Y = 7) - FAIL.
+       680) -----------------Dedamas numeris 6 vietoje: (X = 4, Y = 7) - FAIL.
+       681) -----------------Dedamas numeris 7 vietoje: (X = 4, Y = 7) - FAIL.
+       682) -----------------Dedamas numeris 8 vietoje: (X = 4, Y = 7) - FAIL.
+       683) -----------------Dedamas numeris 9 vietoje: (X = 4, Y = 7) - FAIL, BACKTRACK 1 times.
+       684) ----------------Dedamas numeris 4 vietoje: (X = 4, Y = 6) - FAIL.
+       685) ----------------Dedamas numeris 5 vietoje: (X = 4, Y = 6) - OK.
+       686) -----------------Dedamas numeris 1 vietoje: (X = 4, Y = 7) - FAIL.
+       687) -----------------Dedamas numeris 2 vietoje: (X = 4, Y = 7) - FAIL.
+       688) -----------------Dedamas numeris 3 vietoje: (X = 4, Y = 7) - OK.
+       689) ------------------Dedamas numeris 1 vietoje: (X = 4, Y = 8) - FAIL.
+       690) ------------------Dedamas numeris 2 vietoje: (X = 4, Y = 8) - FAIL.
+       691) ------------------Dedamas numeris 3 vietoje: (X = 4, Y = 8) - FAIL.
+       692) ------------------Dedamas numeris 4 vietoje: (X = 4, Y = 8) - FAIL.
+       693) ------------------Dedamas numeris 5 vietoje: (X = 4, Y = 8) - FAIL.
+       694) ------------------Dedamas numeris 6 vietoje: (X = 4, Y = 8) - FAIL.
+       695) ------------------Dedamas numeris 7 vietoje: (X = 4, Y = 8) - FAIL.
+       696) ------------------Dedamas numeris 8 vietoje: (X = 4, Y = 8) - FAIL.
+       697) ------------------Dedamas numeris 9 vietoje: (X = 4, Y = 8) - OK.
+       698) -------------------Dedamas numeris 1 vietoje: (X = 4, Y = 9) - FAIL.
+       699) -------------------Dedamas numeris 2 vietoje: (X = 4, Y = 9) - FAIL.
+       700) -------------------Dedamas numeris 3 vietoje: (X = 4, Y = 9) - FAIL.
+       701) -------------------Dedamas numeris 4 vietoje: (X = 4, Y = 9) - FAIL.
+       702) -------------------Dedamas numeris 5 vietoje: (X = 4, Y = 9) - FAIL.
+       703) -------------------Dedamas numeris 6 vietoje: (X = 4, Y = 9) - FAIL.
+       704) -------------------Dedamas numeris 7 vietoje: (X = 4, Y = 9) - FAIL.
+       705) -------------------Dedamas numeris 8 vietoje: (X = 4, Y = 9) - FAIL.
+       706) -------------------Dedamas numeris 9 vietoje: (X = 4, Y = 9) - FAIL, BACKTRACK 2 times.
+       707) -----------------Dedamas numeris 4 vietoje: (X = 4, Y = 7) - FAIL.
+       708) -----------------Dedamas numeris 5 vietoje: (X = 4, Y = 7) - FAIL.
+       709) -----------------Dedamas numeris 6 vietoje: (X = 4, Y = 7) - FAIL.
+       710) -----------------Dedamas numeris 7 vietoje: (X = 4, Y = 7) - FAIL.
+       711) -----------------Dedamas numeris 8 vietoje: (X = 4, Y = 7) - FAIL.
+       712) -----------------Dedamas numeris 9 vietoje: (X = 4, Y = 7) - FAIL, BACKTRACK 1 times.
+       713) ----------------Dedamas numeris 6 vietoje: (X = 4, Y = 6) - FAIL.
+       714) ----------------Dedamas numeris 7 vietoje: (X = 4, Y = 6) - FAIL.
+       715) ----------------Dedamas numeris 8 vietoje: (X = 4, Y = 6) - FAIL.
+       716) ----------------Dedamas numeris 9 vietoje: (X = 4, Y = 6) - FAIL, BACKTRACK 1 times.
+       717) ---------------Dedamas numeris 3 vietoje: (X = 4, Y = 1) - FAIL.
+       718) ---------------Dedamas numeris 4 vietoje: (X = 4, Y = 1) - FAIL.
+       719) ---------------Dedamas numeris 5 vietoje: (X = 4, Y = 1) - FAIL.
+       720) ---------------Dedamas numeris 6 vietoje: (X = 4, Y = 1) - OK.
+       721) ----------------Dedamas numeris 1 vietoje: (X = 4, Y = 6) - FAIL.
+       722) ----------------Dedamas numeris 2 vietoje: (X = 4, Y = 6) - FAIL.
+       723) ----------------Dedamas numeris 3 vietoje: (X = 4, Y = 6) - OK.
+       724) -----------------Dedamas numeris 1 vietoje: (X = 4, Y = 7) - FAIL.
+       725) -----------------Dedamas numeris 2 vietoje: (X = 4, Y = 7) - OK.
+       726) ------------------Dedamas numeris 1 vietoje: (X = 4, Y = 8) - FAIL.
+       727) ------------------Dedamas numeris 2 vietoje: (X = 4, Y = 8) - FAIL.
+       728) ------------------Dedamas numeris 3 vietoje: (X = 4, Y = 8) - FAIL.
+       729) ------------------Dedamas numeris 4 vietoje: (X = 4, Y = 8) - FAIL.
+       730) ------------------Dedamas numeris 5 vietoje: (X = 4, Y = 8) - FAIL.
+       731) ------------------Dedamas numeris 6 vietoje: (X = 4, Y = 8) - FAIL.
+       732) ------------------Dedamas numeris 7 vietoje: (X = 4, Y = 8) - FAIL.
+       733) ------------------Dedamas numeris 8 vietoje: (X = 4, Y = 8) - FAIL.
+       734) ------------------Dedamas numeris 9 vietoje: (X = 4, Y = 8) - OK.
+       735) -------------------Dedamas numeris 1 vietoje: (X = 4, Y = 9) - FAIL.
+       736) -------------------Dedamas numeris 2 vietoje: (X = 4, Y = 9) - FAIL.
+       737) -------------------Dedamas numeris 3 vietoje: (X = 4, Y = 9) - FAIL.
+       738) -------------------Dedamas numeris 4 vietoje: (X = 4, Y = 9) - FAIL.
+       739) -------------------Dedamas numeris 5 vietoje: (X = 4, Y = 9) - FAIL.
+       740) -------------------Dedamas numeris 6 vietoje: (X = 4, Y = 9) - FAIL.
+       741) -------------------Dedamas numeris 7 vietoje: (X = 4, Y = 9) - FAIL.
+       742) -------------------Dedamas numeris 8 vietoje: (X = 4, Y = 9) - FAIL.
+       743) -------------------Dedamas numeris 9 vietoje: (X = 4, Y = 9) - FAIL, BACKTRACK 2 times.
+       744) -----------------Dedamas numeris 3 vietoje: (X = 4, Y = 7) - FAIL.
+       745) -----------------Dedamas numeris 4 vietoje: (X = 4, Y = 7) - FAIL.
+       746) -----------------Dedamas numeris 5 vietoje: (X = 4, Y = 7) - FAIL.
+       747) -----------------Dedamas numeris 6 vietoje: (X = 4, Y = 7) - FAIL.
+       748) -----------------Dedamas numeris 7 vietoje: (X = 4, Y = 7) - FAIL.
+       749) -----------------Dedamas numeris 8 vietoje: (X = 4, Y = 7) - FAIL.
+       750) -----------------Dedamas numeris 9 vietoje: (X = 4, Y = 7) - FAIL, BACKTRACK 1 times.
+       751) ----------------Dedamas numeris 4 vietoje: (X = 4, Y = 6) - FAIL.
+       752) ----------------Dedamas numeris 5 vietoje: (X = 4, Y = 6) - OK.
+       753) -----------------Dedamas numeris 1 vietoje: (X = 4, Y = 7) - FAIL.
+       754) -----------------Dedamas numeris 2 vietoje: (X = 4, Y = 7) - OK.
+       755) ------------------Dedamas numeris 1 vietoje: (X = 4, Y = 8) - FAIL.
+       756) ------------------Dedamas numeris 2 vietoje: (X = 4, Y = 8) - FAIL.
+       757) ------------------Dedamas numeris 3 vietoje: (X = 4, Y = 8) - FAIL.
+       758) ------------------Dedamas numeris 4 vietoje: (X = 4, Y = 8) - FAIL.
+       759) ------------------Dedamas numeris 5 vietoje: (X = 4, Y = 8) - FAIL.
+       760) ------------------Dedamas numeris 6 vietoje: (X = 4, Y = 8) - FAIL.
+       761) ------------------Dedamas numeris 7 vietoje: (X = 4, Y = 8) - FAIL.
+       762) ------------------Dedamas numeris 8 vietoje: (X = 4, Y = 8) - FAIL.
+       763) ------------------Dedamas numeris 9 vietoje: (X = 4, Y = 8) - OK.
+       764) -------------------Dedamas numeris 1 vietoje: (X = 4, Y = 9) - FAIL.
+       765) -------------------Dedamas numeris 2 vietoje: (X = 4, Y = 9) - FAIL.
+       766) -------------------Dedamas numeris 3 vietoje: (X = 4, Y = 9) - OK.
+       767) --------------------Dedamas numeris 1 vietoje: (X = 5, Y = 1) - FAIL.
+       768) --------------------Dedamas numeris 2 vietoje: (X = 5, Y = 1) - FAIL.
+       769) --------------------Dedamas numeris 3 vietoje: (X = 5, Y = 1) - FAIL.
+       770) --------------------Dedamas numeris 4 vietoje: (X = 5, Y = 1) - OK.
+       771) ---------------------Dedamas numeris 1 vietoje: (X = 5, Y = 2) - FAIL.
+       772) ---------------------Dedamas numeris 2 vietoje: (X = 5, Y = 2) - FAIL.
+       773) ---------------------Dedamas numeris 3 vietoje: (X = 5, Y = 2) - OK.
+       774) ----------------------Dedamas numeris 1 vietoje: (X = 5, Y = 5) - OK.
+       775) -----------------------Dedamas numeris 1 vietoje: (X = 5, Y = 8) - FAIL.
+       776) -----------------------Dedamas numeris 2 vietoje: (X = 5, Y = 8) - FAIL.
+       777) -----------------------Dedamas numeris 3 vietoje: (X = 5, Y = 8) - FAIL.
+       778) -----------------------Dedamas numeris 4 vietoje: (X = 5, Y = 8) - FAIL.
+       779) -----------------------Dedamas numeris 5 vietoje: (X = 5, Y = 8) - FAIL.
+       780) -----------------------Dedamas numeris 6 vietoje: (X = 5, Y = 8) - FAIL.
+       781) -----------------------Dedamas numeris 7 vietoje: (X = 5, Y = 8) - OK.
+       782) ------------------------Dedamas numeris 1 vietoje: (X = 5, Y = 9) - FAIL.
+       783) ------------------------Dedamas numeris 2 vietoje: (X = 5, Y = 9) - FAIL.
+       784) ------------------------Dedamas numeris 3 vietoje: (X = 5, Y = 9) - FAIL.
+       785) ------------------------Dedamas numeris 4 vietoje: (X = 5, Y = 9) - FAIL.
+       786) ------------------------Dedamas numeris 5 vietoje: (X = 5, Y = 9) - FAIL.
+       787) ------------------------Dedamas numeris 6 vietoje: (X = 5, Y = 9) - FAIL.
+       788) ------------------------Dedamas numeris 7 vietoje: (X = 5, Y = 9) - FAIL.
+       789) ------------------------Dedamas numeris 8 vietoje: (X = 5, Y = 9) - OK.
+       790) -------------------------Dedamas numeris 1 vietoje: (X = 6, Y = 1) - FAIL.
+       791) -------------------------Dedamas numeris 2 vietoje: (X = 6, Y = 1) - OK.
+       792) --------------------------Dedamas numeris 1 vietoje: (X = 6, Y = 2) - FAIL.
+       793) --------------------------Dedamas numeris 2 vietoje: (X = 6, Y = 2) - FAIL.
+       794) --------------------------Dedamas numeris 3 vietoje: (X = 6, Y = 2) - FAIL.
+       795) --------------------------Dedamas numeris 4 vietoje: (X = 6, Y = 2) - FAIL.
+       796) --------------------------Dedamas numeris 5 vietoje: (X = 6, Y = 2) - FAIL.
+       797) --------------------------Dedamas numeris 6 vietoje: (X = 6, Y = 2) - FAIL.
+       798) --------------------------Dedamas numeris 7 vietoje: (X = 6, Y = 2) - FAIL.
+       799) --------------------------Dedamas numeris 8 vietoje: (X = 6, Y = 2) - FAIL.
+       800) --------------------------Dedamas numeris 9 vietoje: (X = 6, Y = 2) - OK.
+       801) ---------------------------Dedamas numeris 1 vietoje: (X = 6, Y = 3) - FAIL.
+       802) ---------------------------Dedamas numeris 2 vietoje: (X = 6, Y = 3) - FAIL.
+       803) ---------------------------Dedamas numeris 3 vietoje: (X = 6, Y = 3) - FAIL.
+       804) ---------------------------Dedamas numeris 4 vietoje: (X = 6, Y = 3) - FAIL.
+       805) ---------------------------Dedamas numeris 5 vietoje: (X = 6, Y = 3) - FAIL.
+       806) ---------------------------Dedamas numeris 6 vietoje: (X = 6, Y = 3) - FAIL.
+       807) ---------------------------Dedamas numeris 7 vietoje: (X = 6, Y = 3) - OK.
+       808) ----------------------------Dedamas numeris 1 vietoje: (X = 6, Y = 4) - FAIL.
+       809) ----------------------------Dedamas numeris 2 vietoje: (X = 6, Y = 4) - FAIL.
+       810) ----------------------------Dedamas numeris 3 vietoje: (X = 6, Y = 4) - OK.
+       811) -----------------------------Dedamas numeris 1 vietoje: (X = 6, Y = 9) - FAIL.
+       812) -----------------------------Dedamas numeris 2 vietoje: (X = 6, Y = 9) - FAIL.
+       813) -----------------------------Dedamas numeris 3 vietoje: (X = 6, Y = 9) - FAIL.
+       814) -----------------------------Dedamas numeris 4 vietoje: (X = 6, Y = 9) - FAIL.
+       815) -----------------------------Dedamas numeris 5 vietoje: (X = 6, Y = 9) - FAIL.
+       816) -----------------------------Dedamas numeris 6 vietoje: (X = 6, Y = 9) - FAIL.
+       817) -----------------------------Dedamas numeris 7 vietoje: (X = 6, Y = 9) - FAIL.
+       818) -----------------------------Dedamas numeris 8 vietoje: (X = 6, Y = 9) - FAIL.
+       819) -----------------------------Dedamas numeris 9 vietoje: (X = 6, Y = 9) - FAIL, BACKTRACK 1 times.
+       820) ----------------------------Dedamas numeris 4 vietoje: (X = 6, Y = 4) - FAIL.
+       821) ----------------------------Dedamas numeris 5 vietoje: (X = 6, Y = 4) - FAIL.
+       822) ----------------------------Dedamas numeris 6 vietoje: (X = 6, Y = 4) - FAIL.
+       823) ----------------------------Dedamas numeris 7 vietoje: (X = 6, Y = 4) - FAIL.
+       824) ----------------------------Dedamas numeris 8 vietoje: (X = 6, Y = 4) - FAIL.
+       825) ----------------------------Dedamas numeris 9 vietoje: (X = 6, Y = 4) - FAIL, BACKTRACK 1 times.
+       826) ---------------------------Dedamas numeris 8 vietoje: (X = 6, Y = 3) - FAIL.
+       827) ---------------------------Dedamas numeris 9 vietoje: (X = 6, Y = 3) - FAIL, BACKTRACK 2 times.
+       828) -------------------------Dedamas numeris 3 vietoje: (X = 6, Y = 1) - FAIL.
+       829) -------------------------Dedamas numeris 4 vietoje: (X = 6, Y = 1) - FAIL.
+       830) -------------------------Dedamas numeris 5 vietoje: (X = 6, Y = 1) - FAIL.
+       831) -------------------------Dedamas numeris 6 vietoje: (X = 6, Y = 1) - FAIL.
+       832) -------------------------Dedamas numeris 7 vietoje: (X = 6, Y = 1) - FAIL.
+       833) -------------------------Dedamas numeris 8 vietoje: (X = 6, Y = 1) - FAIL.
+       834) -------------------------Dedamas numeris 9 vietoje: (X = 6, Y = 1) - FAIL, BACKTRACK 1 times.
+       835) ------------------------Dedamas numeris 9 vietoje: (X = 5, Y = 9) - FAIL, BACKTRACK 1 times.
+       836) -----------------------Dedamas numeris 8 vietoje: (X = 5, Y = 8) - OK.
+       837) ------------------------Dedamas numeris 1 vietoje: (X = 5, Y = 9) - FAIL.
+       838) ------------------------Dedamas numeris 2 vietoje: (X = 5, Y = 9) - FAIL.
+       839) ------------------------Dedamas numeris 3 vietoje: (X = 5, Y = 9) - FAIL.
+       840) ------------------------Dedamas numeris 4 vietoje: (X = 5, Y = 9) - FAIL.
+       841) ------------------------Dedamas numeris 5 vietoje: (X = 5, Y = 9) - FAIL.
+       842) ------------------------Dedamas numeris 6 vietoje: (X = 5, Y = 9) - FAIL.
+       843) ------------------------Dedamas numeris 7 vietoje: (X = 5, Y = 9) - FAIL.
+       844) ------------------------Dedamas numeris 8 vietoje: (X = 5, Y = 9) - FAIL.
+       845) ------------------------Dedamas numeris 9 vietoje: (X = 5, Y = 9) - FAIL, BACKTRACK 1 times.
+       846) -----------------------Dedamas numeris 9 vietoje: (X = 5, Y = 8) - FAIL, BACKTRACK 1 times.
+       847) ----------------------Dedamas numeris 2 vietoje: (X = 5, Y = 5) - FAIL.
+       848) ----------------------Dedamas numeris 3 vietoje: (X = 5, Y = 5) - FAIL.
+       849) ----------------------Dedamas numeris 4 vietoje: (X = 5, Y = 5) - FAIL.
+       850) ----------------------Dedamas numeris 5 vietoje: (X = 5, Y = 5) - FAIL.
+       851) ----------------------Dedamas numeris 6 vietoje: (X = 5, Y = 5) - FAIL.
+       852) ----------------------Dedamas numeris 7 vietoje: (X = 5, Y = 5) - FAIL.
+       853) ----------------------Dedamas numeris 8 vietoje: (X = 5, Y = 5) - FAIL.
+       854) ----------------------Dedamas numeris 9 vietoje: (X = 5, Y = 5) - FAIL, BACKTRACK 1 times.
+       855) ---------------------Dedamas numeris 4 vietoje: (X = 5, Y = 2) - FAIL.
+       856) ---------------------Dedamas numeris 5 vietoje: (X = 5, Y = 2) - FAIL.
+       857) ---------------------Dedamas numeris 6 vietoje: (X = 5, Y = 2) - FAIL.
+       858) ---------------------Dedamas numeris 7 vietoje: (X = 5, Y = 2) - FAIL.
+       859) ---------------------Dedamas numeris 8 vietoje: (X = 5, Y = 2) - FAIL.
+       860) ---------------------Dedamas numeris 9 vietoje: (X = 5, Y = 2) - FAIL, BACKTRACK 1 times.
+       861) --------------------Dedamas numeris 5 vietoje: (X = 5, Y = 1) - FAIL.
+       862) --------------------Dedamas numeris 6 vietoje: (X = 5, Y = 1) - FAIL.
+       863) --------------------Dedamas numeris 7 vietoje: (X = 5, Y = 1) - FAIL.
+       864) --------------------Dedamas numeris 8 vietoje: (X = 5, Y = 1) - FAIL.
+       865) --------------------Dedamas numeris 9 vietoje: (X = 5, Y = 1) - FAIL, BACKTRACK 1 times.
+       866) -------------------Dedamas numeris 4 vietoje: (X = 4, Y = 9) - FAIL.
+       867) -------------------Dedamas numeris 5 vietoje: (X = 4, Y = 9) - FAIL.
+       868) -------------------Dedamas numeris 6 vietoje: (X = 4, Y = 9) - FAIL.
+       869) -------------------Dedamas numeris 7 vietoje: (X = 4, Y = 9) - FAIL.
+       870) -------------------Dedamas numeris 8 vietoje: (X = 4, Y = 9) - FAIL.
+       871) -------------------Dedamas numeris 9 vietoje: (X = 4, Y = 9) - FAIL, BACKTRACK 2 times.
+       872) -----------------Dedamas numeris 3 vietoje: (X = 4, Y = 7) - OK.
+       873) ------------------Dedamas numeris 1 vietoje: (X = 4, Y = 8) - FAIL.
+       874) ------------------Dedamas numeris 2 vietoje: (X = 4, Y = 8) - FAIL.
+       875) ------------------Dedamas numeris 3 vietoje: (X = 4, Y = 8) - FAIL.
+       876) ------------------Dedamas numeris 4 vietoje: (X = 4, Y = 8) - FAIL.
+       877) ------------------Dedamas numeris 5 vietoje: (X = 4, Y = 8) - FAIL.
+       878) ------------------Dedamas numeris 6 vietoje: (X = 4, Y = 8) - FAIL.
+       879) ------------------Dedamas numeris 7 vietoje: (X = 4, Y = 8) - FAIL.
+       880) ------------------Dedamas numeris 8 vietoje: (X = 4, Y = 8) - FAIL.
+       881) ------------------Dedamas numeris 9 vietoje: (X = 4, Y = 8) - OK.
+       882) -------------------Dedamas numeris 1 vietoje: (X = 4, Y = 9) - FAIL.
+       883) -------------------Dedamas numeris 2 vietoje: (X = 4, Y = 9) - FAIL.
+       884) -------------------Dedamas numeris 3 vietoje: (X = 4, Y = 9) - FAIL.
+       885) -------------------Dedamas numeris 4 vietoje: (X = 4, Y = 9) - FAIL.
+       886) -------------------Dedamas numeris 5 vietoje: (X = 4, Y = 9) - FAIL.
+       887) -------------------Dedamas numeris 6 vietoje: (X = 4, Y = 9) - FAIL.
+       888) -------------------Dedamas numeris 7 vietoje: (X = 4, Y = 9) - FAIL.
+       889) -------------------Dedamas numeris 8 vietoje: (X = 4, Y = 9) - FAIL.
+       890) -------------------Dedamas numeris 9 vietoje: (X = 4, Y = 9) - FAIL, BACKTRACK 2 times.
+       891) -----------------Dedamas numeris 4 vietoje: (X = 4, Y = 7) - FAIL.
+       892) -----------------Dedamas numeris 5 vietoje: (X = 4, Y = 7) - FAIL.
+       893) -----------------Dedamas numeris 6 vietoje: (X = 4, Y = 7) - FAIL.
+       894) -----------------Dedamas numeris 7 vietoje: (X = 4, Y = 7) - FAIL.
+       895) -----------------Dedamas numeris 8 vietoje: (X = 4, Y = 7) - FAIL.
+       896) -----------------Dedamas numeris 9 vietoje: (X = 4, Y = 7) - FAIL, BACKTRACK 1 times.
+       897) ----------------Dedamas numeris 6 vietoje: (X = 4, Y = 6) - FAIL.
+       898) ----------------Dedamas numeris 7 vietoje: (X = 4, Y = 6) - FAIL.
+       899) ----------------Dedamas numeris 8 vietoje: (X = 4, Y = 6) - FAIL.
+       900) ----------------Dedamas numeris 9 vietoje: (X = 4, Y = 6) - FAIL, BACKTRACK 1 times.
+       901) ---------------Dedamas numeris 7 vietoje: (X = 4, Y = 1) - FAIL.
+       902) ---------------Dedamas numeris 8 vietoje: (X = 4, Y = 1) - FAIL.
+       903) ---------------Dedamas numeris 9 vietoje: (X = 4, Y = 1) - FAIL, BACKTRACK 1 times.
+       904) --------------Dedamas numeris 4 vietoje: (X = 3, Y = 8) - FAIL.
+       905) --------------Dedamas numeris 5 vietoje: (X = 3, Y = 8) - FAIL.
+       906) --------------Dedamas numeris 6 vietoje: (X = 3, Y = 8) - FAIL.
+       907) --------------Dedamas numeris 7 vietoje: (X = 3, Y = 8) - FAIL.
+       908) --------------Dedamas numeris 8 vietoje: (X = 3, Y = 8) - FAIL.
+       909) --------------Dedamas numeris 9 vietoje: (X = 3, Y = 8) - FAIL, BACKTRACK 1 times.
+       910) -------------Dedamas numeris 6 vietoje: (X = 3, Y = 5) - FAIL.
+       911) -------------Dedamas numeris 7 vietoje: (X = 3, Y = 5) - FAIL.
+       912) -------------Dedamas numeris 8 vietoje: (X = 3, Y = 5) - FAIL.
+       913) -------------Dedamas numeris 9 vietoje: (X = 3, Y = 5) - FAIL, BACKTRACK 2 times.
+       914) -----------Dedamas numeris 7 vietoje: (X = 3, Y = 3) - FAIL.
+       915) -----------Dedamas numeris 8 vietoje: (X = 3, Y = 3) - FAIL.
+       916) -----------Dedamas numeris 9 vietoje: (X = 3, Y = 3) - FAIL, BACKTRACK 1 times.
+       917) ----------Dedamas numeris 9 vietoje: (X = 3, Y = 2) - FAIL, BACKTRACK 1 times.
+       918) ---------Dedamas numeris 5 vietoje: (X = 2, Y = 9) - FAIL.
+       919) ---------Dedamas numeris 6 vietoje: (X = 2, Y = 9) - FAIL.
+       920) ---------Dedamas numeris 7 vietoje: (X = 2, Y = 9) - FAIL.
+       921) ---------Dedamas numeris 8 vietoje: (X = 2, Y = 9) - FAIL.
+       922) ---------Dedamas numeris 9 vietoje: (X = 2, Y = 9) - FAIL, BACKTRACK 1 times.
+       923) --------Dedamas numeris 2 vietoje: (X = 2, Y = 8) - FAIL.
+       924) --------Dedamas numeris 3 vietoje: (X = 2, Y = 8) - FAIL.
+       925) --------Dedamas numeris 4 vietoje: (X = 2, Y = 8) - OK.
+       926) ---------Dedamas numeris 1 vietoje: (X = 2, Y = 9) - OK.
+       927) ----------Dedamas numeris 1 vietoje: (X = 3, Y = 2) - FAIL.
+       928) ----------Dedamas numeris 2 vietoje: (X = 3, Y = 2) - FAIL.
+       929) ----------Dedamas numeris 3 vietoje: (X = 3, Y = 2) - FAIL.
+       930) ----------Dedamas numeris 4 vietoje: (X = 3, Y = 2) - FAIL.
+       931) ----------Dedamas numeris 5 vietoje: (X = 3, Y = 2) - FAIL.
+       932) ----------Dedamas numeris 6 vietoje: (X = 3, Y = 2) - OK.
+       933) -----------Dedamas numeris 1 vietoje: (X = 3, Y = 3) - FAIL.
+       934) -----------Dedamas numeris 2 vietoje: (X = 3, Y = 3) - FAIL.
+       935) -----------Dedamas numeris 3 vietoje: (X = 3, Y = 3) - FAIL.
+       936) -----------Dedamas numeris 4 vietoje: (X = 3, Y = 3) - FAIL.
+       937) -----------Dedamas numeris 5 vietoje: (X = 3, Y = 3) - FAIL.
+       938) -----------Dedamas numeris 6 vietoje: (X = 3, Y = 3) - FAIL.
+       939) -----------Dedamas numeris 7 vietoje: (X = 3, Y = 3) - FAIL.
+       940) -----------Dedamas numeris 8 vietoje: (X = 3, Y = 3) - FAIL.
+       941) -----------Dedamas numeris 9 vietoje: (X = 3, Y = 3) - FAIL, BACKTRACK 1 times.
+       942) ----------Dedamas numeris 7 vietoje: (X = 3, Y = 2) - FAIL.
+       943) ----------Dedamas numeris 8 vietoje: (X = 3, Y = 2) - OK.
+       944) -----------Dedamas numeris 1 vietoje: (X = 3, Y = 3) - FAIL.
+       945) -----------Dedamas numeris 2 vietoje: (X = 3, Y = 3) - FAIL.
+       946) -----------Dedamas numeris 3 vietoje: (X = 3, Y = 3) - FAIL.
+       947) -----------Dedamas numeris 4 vietoje: (X = 3, Y = 3) - FAIL.
+       948) -----------Dedamas numeris 5 vietoje: (X = 3, Y = 3) - FAIL.
+       949) -----------Dedamas numeris 6 vietoje: (X = 3, Y = 3) - OK.
+       950) ------------Dedamas numeris 1 vietoje: (X = 3, Y = 4) - FAIL.
+       951) ------------Dedamas numeris 2 vietoje: (X = 3, Y = 4) - FAIL.
+       952) ------------Dedamas numeris 3 vietoje: (X = 3, Y = 4) - FAIL.
+       953) ------------Dedamas numeris 4 vietoje: (X = 3, Y = 4) - FAIL.
+       954) ------------Dedamas numeris 5 vietoje: (X = 3, Y = 4) - FAIL.
+       955) ------------Dedamas numeris 6 vietoje: (X = 3, Y = 4) - FAIL.
+       956) ------------Dedamas numeris 7 vietoje: (X = 3, Y = 4) - FAIL.
+       957) ------------Dedamas numeris 8 vietoje: (X = 3, Y = 4) - FAIL.
+       958) ------------Dedamas numeris 9 vietoje: (X = 3, Y = 4) - OK.
+       959) -------------Dedamas numeris 1 vietoje: (X = 3, Y = 5) - FAIL.
+       960) -------------Dedamas numeris 2 vietoje: (X = 3, Y = 5) - FAIL.
+       961) -------------Dedamas numeris 3 vietoje: (X = 3, Y = 5) - FAIL.
+       962) -------------Dedamas numeris 4 vietoje: (X = 3, Y = 5) - FAIL.
+       963) -------------Dedamas numeris 5 vietoje: (X = 3, Y = 5) - OK.
+       964) --------------Dedamas numeris 1 vietoje: (X = 3, Y = 8) - FAIL.
+       965) --------------Dedamas numeris 2 vietoje: (X = 3, Y = 8) - FAIL.
+       966) --------------Dedamas numeris 3 vietoje: (X = 3, Y = 8) - OK.
+       967) ---------------Dedamas numeris 1 vietoje: (X = 4, Y = 1) - FAIL.
+       968) ---------------Dedamas numeris 2 vietoje: (X = 4, Y = 1) - OK.
+       969) ----------------Dedamas numeris 1 vietoje: (X = 4, Y = 6) - FAIL.
+       970) ----------------Dedamas numeris 2 vietoje: (X = 4, Y = 6) - FAIL.
+       971) ----------------Dedamas numeris 3 vietoje: (X = 4, Y = 6) - OK.
+       972) -----------------Dedamas numeris 1 vietoje: (X = 4, Y = 7) - FAIL.
+       973) -----------------Dedamas numeris 2 vietoje: (X = 4, Y = 7) - FAIL.
+       974) -----------------Dedamas numeris 3 vietoje: (X = 4, Y = 7) - FAIL.
+       975) -----------------Dedamas numeris 4 vietoje: (X = 4, Y = 7) - FAIL.
+       976) -----------------Dedamas numeris 5 vietoje: (X = 4, Y = 7) - FAIL.
+       977) -----------------Dedamas numeris 6 vietoje: (X = 4, Y = 7) - FAIL.
+       978) -----------------Dedamas numeris 7 vietoje: (X = 4, Y = 7) - FAIL.
+       979) -----------------Dedamas numeris 8 vietoje: (X = 4, Y = 7) - FAIL.
+       980) -----------------Dedamas numeris 9 vietoje: (X = 4, Y = 7) - FAIL, BACKTRACK 1 times.
+       981) ----------------Dedamas numeris 4 vietoje: (X = 4, Y = 6) - FAIL.
+       982) ----------------Dedamas numeris 5 vietoje: (X = 4, Y = 6) - OK.
+       983) -----------------Dedamas numeris 1 vietoje: (X = 4, Y = 7) - FAIL.
+       984) -----------------Dedamas numeris 2 vietoje: (X = 4, Y = 7) - FAIL.
+       985) -----------------Dedamas numeris 3 vietoje: (X = 4, Y = 7) - OK.
+       986) ------------------Dedamas numeris 1 vietoje: (X = 4, Y = 8) - FAIL.
+       987) ------------------Dedamas numeris 2 vietoje: (X = 4, Y = 8) - FAIL.
+       988) ------------------Dedamas numeris 3 vietoje: (X = 4, Y = 8) - FAIL.
+       989) ------------------Dedamas numeris 4 vietoje: (X = 4, Y = 8) - FAIL.
+       990) ------------------Dedamas numeris 5 vietoje: (X = 4, Y = 8) - FAIL.
+       991) ------------------Dedamas numeris 6 vietoje: (X = 4, Y = 8) - FAIL.
+       992) ------------------Dedamas numeris 7 vietoje: (X = 4, Y = 8) - FAIL.
+       993) ------------------Dedamas numeris 8 vietoje: (X = 4, Y = 8) - FAIL.
+       994) ------------------Dedamas numeris 9 vietoje: (X = 4, Y = 8) - OK.
+       995) -------------------Dedamas numeris 1 vietoje: (X = 4, Y = 9) - FAIL.
+       996) -------------------Dedamas numeris 2 vietoje: (X = 4, Y = 9) - FAIL.
+       997) -------------------Dedamas numeris 3 vietoje: (X = 4, Y = 9) - FAIL.
+       998) -------------------Dedamas numeris 4 vietoje: (X = 4, Y = 9) - FAIL.
+       999) -------------------Dedamas numeris 5 vietoje: (X = 4, Y = 9) - FAIL.
+      1000) -------------------Dedamas numeris 6 vietoje: (X = 4, Y = 9) - FAIL.
+      1001) -------------------Dedamas numeris 7 vietoje: (X = 4, Y = 9) - FAIL.
+      1002) -------------------Dedamas numeris 8 vietoje: (X = 4, Y = 9) - FAIL.
+      1003) -------------------Dedamas numeris 9 vietoje: (X = 4, Y = 9) - FAIL, BACKTRACK 2 times.
+      1004) -----------------Dedamas numeris 4 vietoje: (X = 4, Y = 7) - FAIL.
+      1005) -----------------Dedamas numeris 5 vietoje: (X = 4, Y = 7) - FAIL.
+      1006) -----------------Dedamas numeris 6 vietoje: (X = 4, Y = 7) - FAIL.
+      1007) -----------------Dedamas numeris 7 vietoje: (X = 4, Y = 7) - FAIL.
+      1008) -----------------Dedamas numeris 8 vietoje: (X = 4, Y = 7) - FAIL.
+      1009) -----------------Dedamas numeris 9 vietoje: (X = 4, Y = 7) - FAIL, BACKTRACK 1 times.
+      1010) ----------------Dedamas numeris 6 vietoje: (X = 4, Y = 6) - FAIL.
+      1011) ----------------Dedamas numeris 7 vietoje: (X = 4, Y = 6) - FAIL.
+      1012) ----------------Dedamas numeris 8 vietoje: (X = 4, Y = 6) - FAIL.
+      1013) ----------------Dedamas numeris 9 vietoje: (X = 4, Y = 6) - FAIL, BACKTRACK 1 times.
+      1014) ---------------Dedamas numeris 3 vietoje: (X = 4, Y = 1) - FAIL.
+      1015) ---------------Dedamas numeris 4 vietoje: (X = 4, Y = 1) - FAIL.
+      1016) ---------------Dedamas numeris 5 vietoje: (X = 4, Y = 1) - FAIL.
+      1017) ---------------Dedamas numeris 6 vietoje: (X = 4, Y = 1) - OK.
+      1018) ----------------Dedamas numeris 1 vietoje: (X = 4, Y = 6) - FAIL.
+      1019) ----------------Dedamas numeris 2 vietoje: (X = 4, Y = 6) - FAIL.
+      1020) ----------------Dedamas numeris 3 vietoje: (X = 4, Y = 6) - OK.
+      1021) -----------------Dedamas numeris 1 vietoje: (X = 4, Y = 7) - FAIL.
+      1022) -----------------Dedamas numeris 2 vietoje: (X = 4, Y = 7) - OK.
+      1023) ------------------Dedamas numeris 1 vietoje: (X = 4, Y = 8) - FAIL.
+      1024) ------------------Dedamas numeris 2 vietoje: (X = 4, Y = 8) - FAIL.
+      1025) ------------------Dedamas numeris 3 vietoje: (X = 4, Y = 8) - FAIL.
+      1026) ------------------Dedamas numeris 4 vietoje: (X = 4, Y = 8) - FAIL.
+      1027) ------------------Dedamas numeris 5 vietoje: (X = 4, Y = 8) - FAIL.
+      1028) ------------------Dedamas numeris 6 vietoje: (X = 4, Y = 8) - FAIL.
+      1029) ------------------Dedamas numeris 7 vietoje: (X = 4, Y = 8) - FAIL.
+      1030) ------------------Dedamas numeris 8 vietoje: (X = 4, Y = 8) - FAIL.
+      1031) ------------------Dedamas numeris 9 vietoje: (X = 4, Y = 8) - OK.
+      1032) -------------------Dedamas numeris 1 vietoje: (X = 4, Y = 9) - FAIL.
+      1033) -------------------Dedamas numeris 2 vietoje: (X = 4, Y = 9) - FAIL.
+      1034) -------------------Dedamas numeris 3 vietoje: (X = 4, Y = 9) - FAIL.
+      1035) -------------------Dedamas numeris 4 vietoje: (X = 4, Y = 9) - FAIL.
+      1036) -------------------Dedamas numeris 5 vietoje: (X = 4, Y = 9) - FAIL.
+      1037) -------------------Dedamas numeris 6 vietoje: (X = 4, Y = 9) - FAIL.
+      1038) -------------------Dedamas numeris 7 vietoje: (X = 4, Y = 9) - FAIL.
+      1039) -------------------Dedamas numeris 8 vietoje: (X = 4, Y = 9) - FAIL.
+      1040) -------------------Dedamas numeris 9 vietoje: (X = 4, Y = 9) - FAIL, BACKTRACK 2 times.
+      1041) -----------------Dedamas numeris 3 vietoje: (X = 4, Y = 7) - FAIL.
+      1042) -----------------Dedamas numeris 4 vietoje: (X = 4, Y = 7) - FAIL.
+      1043) -----------------Dedamas numeris 5 vietoje: (X = 4, Y = 7) - FAIL.
+      1044) -----------------Dedamas numeris 6 vietoje: (X = 4, Y = 7) - FAIL.
+      1045) -----------------Dedamas numeris 7 vietoje: (X = 4, Y = 7) - FAIL.
+      1046) -----------------Dedamas numeris 8 vietoje: (X = 4, Y = 7) - FAIL.
+      1047) -----------------Dedamas numeris 9 vietoje: (X = 4, Y = 7) - FAIL, BACKTRACK 1 times.
+      1048) ----------------Dedamas numeris 4 vietoje: (X = 4, Y = 6) - FAIL.
+      1049) ----------------Dedamas numeris 5 vietoje: (X = 4, Y = 6) - OK.
+      1050) -----------------Dedamas numeris 1 vietoje: (X = 4, Y = 7) - FAIL.
+      1051) -----------------Dedamas numeris 2 vietoje: (X = 4, Y = 7) - OK.
+      1052) ------------------Dedamas numeris 1 vietoje: (X = 4, Y = 8) - FAIL.
+      1053) ------------------Dedamas numeris 2 vietoje: (X = 4, Y = 8) - FAIL.
+      1054) ------------------Dedamas numeris 3 vietoje: (X = 4, Y = 8) - FAIL.
+      1055) ------------------Dedamas numeris 4 vietoje: (X = 4, Y = 8) - FAIL.
+      1056) ------------------Dedamas numeris 5 vietoje: (X = 4, Y = 8) - FAIL.
+      1057) ------------------Dedamas numeris 6 vietoje: (X = 4, Y = 8) - FAIL.
+      1058) ------------------Dedamas numeris 7 vietoje: (X = 4, Y = 8) - FAIL.
+      1059) ------------------Dedamas numeris 8 vietoje: (X = 4, Y = 8) - FAIL.
+      1060) ------------------Dedamas numeris 9 vietoje: (X = 4, Y = 8) - OK.
+      1061) -------------------Dedamas numeris 1 vietoje: (X = 4, Y = 9) - FAIL.
+      1062) -------------------Dedamas numeris 2 vietoje: (X = 4, Y = 9) - FAIL.
+      1063) -------------------Dedamas numeris 3 vietoje: (X = 4, Y = 9) - OK.
+      1064) --------------------Dedamas numeris 1 vietoje: (X = 5, Y = 1) - FAIL.
+      1065) --------------------Dedamas numeris 2 vietoje: (X = 5, Y = 1) - FAIL.
+      1066) --------------------Dedamas numeris 3 vietoje: (X = 5, Y = 1) - FAIL.
+      1067) --------------------Dedamas numeris 4 vietoje: (X = 5, Y = 1) - OK.
+      1068) ---------------------Dedamas numeris 1 vietoje: (X = 5, Y = 2) - FAIL.
+      1069) ---------------------Dedamas numeris 2 vietoje: (X = 5, Y = 2) - FAIL.
+      1070) ---------------------Dedamas numeris 3 vietoje: (X = 5, Y = 2) - OK.
+      1071) ----------------------Dedamas numeris 1 vietoje: (X = 5, Y = 5) - OK.
+      1072) -----------------------Dedamas numeris 1 vietoje: (X = 5, Y = 8) - FAIL.
+      1073) -----------------------Dedamas numeris 2 vietoje: (X = 5, Y = 8) - FAIL.
+      1074) -----------------------Dedamas numeris 3 vietoje: (X = 5, Y = 8) - FAIL.
+      1075) -----------------------Dedamas numeris 4 vietoje: (X = 5, Y = 8) - FAIL.
+      1076) -----------------------Dedamas numeris 5 vietoje: (X = 5, Y = 8) - FAIL.
+      1077) -----------------------Dedamas numeris 6 vietoje: (X = 5, Y = 8) - FAIL.
+      1078) -----------------------Dedamas numeris 7 vietoje: (X = 5, Y = 8) - OK.
+      1079) ------------------------Dedamas numeris 1 vietoje: (X = 5, Y = 9) - FAIL.
+      1080) ------------------------Dedamas numeris 2 vietoje: (X = 5, Y = 9) - FAIL.
+      1081) ------------------------Dedamas numeris 3 vietoje: (X = 5, Y = 9) - FAIL.
+      1082) ------------------------Dedamas numeris 4 vietoje: (X = 5, Y = 9) - FAIL.
+      1083) ------------------------Dedamas numeris 5 vietoje: (X = 5, Y = 9) - FAIL.
+      1084) ------------------------Dedamas numeris 6 vietoje: (X = 5, Y = 9) - FAIL.
+      1085) ------------------------Dedamas numeris 7 vietoje: (X = 5, Y = 9) - FAIL.
+      1086) ------------------------Dedamas numeris 8 vietoje: (X = 5, Y = 9) - OK.
+      1087) -------------------------Dedamas numeris 1 vietoje: (X = 6, Y = 1) - FAIL.
+      1088) -------------------------Dedamas numeris 2 vietoje: (X = 6, Y = 1) - OK.
+      1089) --------------------------Dedamas numeris 1 vietoje: (X = 6, Y = 2) - FAIL.
+      1090) --------------------------Dedamas numeris 2 vietoje: (X = 6, Y = 2) - FAIL.
+      1091) --------------------------Dedamas numeris 3 vietoje: (X = 6, Y = 2) - FAIL.
+      1092) --------------------------Dedamas numeris 4 vietoje: (X = 6, Y = 2) - FAIL.
+      1093) --------------------------Dedamas numeris 5 vietoje: (X = 6, Y = 2) - FAIL.
+      1094) --------------------------Dedamas numeris 6 vietoje: (X = 6, Y = 2) - FAIL.
+      1095) --------------------------Dedamas numeris 7 vietoje: (X = 6, Y = 2) - FAIL.
+      1096) --------------------------Dedamas numeris 8 vietoje: (X = 6, Y = 2) - FAIL.
+      1097) --------------------------Dedamas numeris 9 vietoje: (X = 6, Y = 2) - OK.
+      1098) ---------------------------Dedamas numeris 1 vietoje: (X = 6, Y = 3) - FAIL.
+      1099) ---------------------------Dedamas numeris 2 vietoje: (X = 6, Y = 3) - FAIL.
+      1100) ---------------------------Dedamas numeris 3 vietoje: (X = 6, Y = 3) - FAIL.
+      1101) ---------------------------Dedamas numeris 4 vietoje: (X = 6, Y = 3) - FAIL.
+      1102) ---------------------------Dedamas numeris 5 vietoje: (X = 6, Y = 3) - FAIL.
+      1103) ---------------------------Dedamas numeris 6 vietoje: (X = 6, Y = 3) - FAIL.
+      1104) ---------------------------Dedamas numeris 7 vietoje: (X = 6, Y = 3) - OK.
+      1105) ----------------------------Dedamas numeris 1 vietoje: (X = 6, Y = 4) - FAIL.
+      1106) ----------------------------Dedamas numeris 2 vietoje: (X = 6, Y = 4) - FAIL.
+      1107) ----------------------------Dedamas numeris 3 vietoje: (X = 6, Y = 4) - OK.
+      1108) -----------------------------Dedamas numeris 1 vietoje: (X = 6, Y = 9) - FAIL.
+      1109) -----------------------------Dedamas numeris 2 vietoje: (X = 6, Y = 9) - FAIL.
+      1110) -----------------------------Dedamas numeris 3 vietoje: (X = 6, Y = 9) - FAIL.
+      1111) -----------------------------Dedamas numeris 4 vietoje: (X = 6, Y = 9) - OK.
+      1112) ------------------------------Dedamas numeris 1 vietoje: (X = 7, Y = 2) - FAIL.
+      1113) ------------------------------Dedamas numeris 2 vietoje: (X = 7, Y = 2) - OK.
+      1114) -------------------------------Dedamas numeris 1 vietoje: (X = 7, Y = 5) - FAIL.
+      1115) -------------------------------Dedamas numeris 2 vietoje: (X = 7, Y = 5) - FAIL.
+      1116) -------------------------------Dedamas numeris 3 vietoje: (X = 7, Y = 5) - FAIL.
+      1117) -------------------------------Dedamas numeris 4 vietoje: (X = 7, Y = 5) - FAIL.
+      1118) -------------------------------Dedamas numeris 5 vietoje: (X = 7, Y = 5) - FAIL.
+      1119) -------------------------------Dedamas numeris 6 vietoje: (X = 7, Y = 5) - FAIL.
+      1120) -------------------------------Dedamas numeris 7 vietoje: (X = 7, Y = 5) - OK.
+      1121) --------------------------------Dedamas numeris 1 vietoje: (X = 7, Y = 6) - FAIL.
+      1122) --------------------------------Dedamas numeris 2 vietoje: (X = 7, Y = 6) - FAIL.
+      1123) --------------------------------Dedamas numeris 3 vietoje: (X = 7, Y = 6) - OK.
+      1124) ---------------------------------Dedamas numeris 1 vietoje: (X = 7, Y = 7) - FAIL.
+      1125) ---------------------------------Dedamas numeris 2 vietoje: (X = 7, Y = 7) - FAIL.
+      1126) ---------------------------------Dedamas numeris 3 vietoje: (X = 7, Y = 7) - FAIL.
+      1127) ---------------------------------Dedamas numeris 4 vietoje: (X = 7, Y = 7) - OK.
+      1128) ----------------------------------Dedamas numeris 1 vietoje: (X = 7, Y = 8) - FAIL.
+      1129) ----------------------------------Dedamas numeris 2 vietoje: (X = 7, Y = 8) - FAIL.
+      1130) ----------------------------------Dedamas numeris 3 vietoje: (X = 7, Y = 8) - FAIL.
+      1131) ----------------------------------Dedamas numeris 4 vietoje: (X = 7, Y = 8) - FAIL.
+      1132) ----------------------------------Dedamas numeris 5 vietoje: (X = 7, Y = 8) - FAIL.
+      1133) ----------------------------------Dedamas numeris 6 vietoje: (X = 7, Y = 8) - FAIL.
+      1134) ----------------------------------Dedamas numeris 7 vietoje: (X = 7, Y = 8) - FAIL.
+      1135) ----------------------------------Dedamas numeris 8 vietoje: (X = 7, Y = 8) - OK.
+      1136) -----------------------------------Dedamas numeris 1 vietoje: (X = 8, Y = 1) - FAIL.
+      1137) -----------------------------------Dedamas numeris 2 vietoje: (X = 8, Y = 1) - FAIL.
+      1138) -----------------------------------Dedamas numeris 3 vietoje: (X = 8, Y = 1) - FAIL.
+      1139) -----------------------------------Dedamas numeris 4 vietoje: (X = 8, Y = 1) - FAIL.
+      1140) -----------------------------------Dedamas numeris 5 vietoje: (X = 8, Y = 1) - OK.
+      1141) ------------------------------------Dedamas numeris 1 vietoje: (X = 8, Y = 2) - FAIL.
+      1142) ------------------------------------Dedamas numeris 2 vietoje: (X = 8, Y = 2) - FAIL.
+      1143) ------------------------------------Dedamas numeris 3 vietoje: (X = 8, Y = 2) - FAIL.
+      1144) ------------------------------------Dedamas numeris 4 vietoje: (X = 8, Y = 2) - FAIL.
+      1145) ------------------------------------Dedamas numeris 5 vietoje: (X = 8, Y = 2) - FAIL.
+      1146) ------------------------------------Dedamas numeris 6 vietoje: (X = 8, Y = 2) - OK.
+      1147) -------------------------------------Dedamas numeris 1 vietoje: (X = 8, Y = 3) - FAIL.
+      1148) -------------------------------------Dedamas numeris 2 vietoje: (X = 8, Y = 3) - FAIL.
+      1149) -------------------------------------Dedamas numeris 3 vietoje: (X = 8, Y = 3) - FAIL.
+      1150) -------------------------------------Dedamas numeris 4 vietoje: (X = 8, Y = 3) - OK.
+      1151) --------------------------------------Dedamas numeris 1 vietoje: (X = 8, Y = 5) - FAIL.
+      1152) --------------------------------------Dedamas numeris 2 vietoje: (X = 8, Y = 5) - FAIL.
+      1153) --------------------------------------Dedamas numeris 3 vietoje: (X = 8, Y = 5) - FAIL.
+      1154) --------------------------------------Dedamas numeris 4 vietoje: (X = 8, Y = 5) - FAIL.
+      1155) --------------------------------------Dedamas numeris 5 vietoje: (X = 8, Y = 5) - FAIL.
+      1156) --------------------------------------Dedamas numeris 6 vietoje: (X = 8, Y = 5) - FAIL.
+      1157) --------------------------------------Dedamas numeris 7 vietoje: (X = 8, Y = 5) - FAIL.
+      1158) --------------------------------------Dedamas numeris 8 vietoje: (X = 8, Y = 5) - FAIL.
+      1159) --------------------------------------Dedamas numeris 9 vietoje: (X = 8, Y = 5) - OK.
+      1160) ---------------------------------------Dedamas numeris 1 vietoje: (X = 8, Y = 7) - FAIL.
+      1161) ---------------------------------------Dedamas numeris 2 vietoje: (X = 8, Y = 7) - FAIL.
+      1162) ---------------------------------------Dedamas numeris 3 vietoje: (X = 8, Y = 7) - OK.
+      1163) ----------------------------------------Dedamas numeris 1 vietoje: (X = 8, Y = 8) - OK.
+      1164) -----------------------------------------Dedamas numeris 1 vietoje: (X = 9, Y = 4) - FAIL.
+      1165) -----------------------------------------Dedamas numeris 2 vietoje: (X = 9, Y = 4) - FAIL.
+      1166) -----------------------------------------Dedamas numeris 3 vietoje: (X = 9, Y = 4) - FAIL.
+      1167) -----------------------------------------Dedamas numeris 4 vietoje: (X = 9, Y = 4) - OK.
+      1168) ------------------------------------------Dedamas numeris 1 vietoje: (X = 9, Y = 6) - OK.
+      1169) -------------------------------------------Dedamas numeris 1 vietoje: (X = 9, Y = 7) - FAIL.
+      1170) -------------------------------------------Dedamas numeris 2 vietoje: (X = 9, Y = 7) - FAIL.
+      1171) -------------------------------------------Dedamas numeris 3 vietoje: (X = 9, Y = 7) - FAIL.
+      1172) -------------------------------------------Dedamas numeris 4 vietoje: (X = 9, Y = 7) - FAIL.
+      1173) -------------------------------------------Dedamas numeris 5 vietoje: (X = 9, Y = 7) - OK.
+      1174) --------------------------------------------Dedamas numeris 1 vietoje: (X = 9, Y = 9) - FAIL.
+      1175) --------------------------------------------Dedamas numeris 2 vietoje: (X = 9, Y = 9) - FAIL.
+      1176) --------------------------------------------Dedamas numeris 3 vietoje: (X = 9, Y = 9) - FAIL.
+      1177) --------------------------------------------Dedamas numeris 4 vietoje: (X = 9, Y = 9) - FAIL.
+      1178) --------------------------------------------Dedamas numeris 5 vietoje: (X = 9, Y = 9) - FAIL.
+      1179) --------------------------------------------Dedamas numeris 6 vietoje: (X = 9, Y = 9) - FAIL.
+      1180) --------------------------------------------Dedamas numeris 7 vietoje: (X = 9, Y = 9) - FAIL.
+      1181) --------------------------------------------Dedamas numeris 8 vietoje: (X = 9, Y = 9) - FAIL.
+      1182) --------------------------------------------Dedamas numeris 9 vietoje: (X = 9, Y = 9) - OK.
+      1183) Nebera tusciu langeliu.
+=========================================
+3 DALIS - Rezultatas:
+
+Sudoku issprendziamas.
+Zingsniu skaicius: 1183.
+
+Sudoku lenta po sprendimo:
+-------------->Y
+|349|127|865
+|752|638|941
+|186|954|732
+------------
+|618|745|293
+|435|219|678
+|297|386|154
+------------
+|921|573|486
+|564|892|317
+|873|461|529
+|
+V
+X
+=========================================
