@@ -1,0 +1,1387 @@
+UZDUOTIS nr. 3, VARIANTAS 7.
+AUTORIUS Nirtautas Sadauskas, GRUPE 2, POGRUPIS 2.
+
+DALIS 1.1. Salyga.
+
+Nesavitarnos parduotuve (ADT: eile, prioritetine eile). Procesas 1: pardaveja pilnai aptarnauja
+klienta (paduoda prekes, ismusa ceki, paima pinigus). Procesas 2: pardaveja surenka pirkejo
+pageidaujamas prekes ir jas suraso ant popieriaus lapelio, su siuo lapeliu klientas eina prie kasininkes,
+kuri ismusa ceki ir paima pinigus, su siuo cekiu pirkejas grizta prie ji aptarnavusios pardavejos ir, kai
+tik si baigia aptarnauti eilini pirkeja, be eiles gauna prekes. Patyrineti abu siuos procesus tiek klientu
+pasitenkinimo poziuriu (minimalus, vidutinis ir maksimalus pilno aptarnavimo laikas), tiek ekonominiu
+poziuriu (kiekvienas kasos aparatas kainuoja). Laikykime, kad bendras darbuotoju skaicius yra
+fiksuotas. Visi kiti rodikliai, nuo kuriu priklauso procesas, ivedami kaip programos parametrai.
+
+DALIS 1.2. Pradiniai duomenys.
+
+Simuliacijos laikas            T =200 min.
+Atejimo i parduotuve tikimybe      10 %.
+Kasos aparato kaina                60 eur.
+Prekiu atnesimo minimalus laikas    2 min.
+Prekiu atnesimo maksimalus laikas   3 min.
+Cekio israsimo minimalus laikas     1 min.
+Cekio israsimo maksimalus laikas    2 min.
+Atsiskaitymo minimalus laikas       1 min.
+Atsiskaitymo maksimalus laikas      2 min.
+Darbuotoju kiekis                   6 darb.
+
+DALIS 2. Protokolas.
+
+DALIS 2.1. Procesas 1. Protokolas.
+
+T=1 min.
+Pirkeju nera.
+
+T=2 min.
+Pirkeju nera.
+
+T=3 min.
+Pirkeju nera.
+
+T=4 min.
+Pirkejas  1 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=5 min.
+Pirkejas  1 parduotuveje praleides laiko  1 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=6 min.
+Pirkejas  1 parduotuveje praleides laiko  2 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=7 min.
+Pirkejas  1 parduotuveje praleides laiko  3 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=8 min.
+Pirkejas  1 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is pardavejos 1.
+
+T=9 min.
+Pirkejas  1 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is pardavejos 1.
+
+T=10 min.
+Pirkejas  1 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is pardavejos 1.
+
+T=11 min.
+Pirkejas  1 parduotuveje praleides laiko  7 min. Busena. Gavo graza is pardavejos 1 ir ISEJO is parduotuves.
+
+T=12 min.
+Pirkeju nera.
+
+T=13 min.
+Pirkeju nera.
+
+T=14 min.
+Pirkejas  2 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=15 min.
+Pirkejas  2 parduotuveje praleides laiko  1 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=16 min.
+Pirkejas  2 parduotuveje praleides laiko  2 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=17 min.
+Pirkejas  2 parduotuveje praleides laiko  3 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=18 min.
+Pirkejas  2 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is pardavejos 1.
+
+T=19 min.
+Pirkejas  2 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is pardavejos 1.
+
+T=20 min.
+Pirkejas  2 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is pardavejos 1.
+
+T=21 min.
+Pirkejas  2 parduotuveje praleides laiko  7 min. Busena. Gavo graza is pardavejos 1 ir ISEJO is parduotuves.
+
+T=22 min.
+Pirkeju nera.
+
+T=23 min.
+Pirkeju nera.
+
+T=24 min.
+Pirkeju nera.
+
+T=25 min.
+Pirkeju nera.
+
+T=26 min.
+Pirkeju nera.
+
+T=27 min.
+Pirkeju nera.
+
+T=28 min.
+Pirkeju nera.
+
+T=29 min.
+Pirkeju nera.
+
+T=30 min.
+Pirkeju nera.
+
+T=31 min.
+Pirkeju nera.
+
+T=32 min.
+Pirkeju nera.
+
+T=33 min.
+Pirkeju nera.
+
+T=34 min.
+Pirkeju nera.
+
+T=35 min.
+Pirkeju nera.
+
+T=36 min.
+Pirkeju nera.
+
+T=37 min.
+Pirkeju nera.
+
+T=38 min.
+Pirkeju nera.
+
+T=39 min.
+Pirkeju nera.
+
+T=40 min.
+Pirkeju nera.
+
+T=41 min.
+Pirkeju nera.
+
+T=42 min.
+Pirkeju nera.
+
+T=43 min.
+Pirkeju nera.
+
+T=44 min.
+Pirkeju nera.
+
+T=45 min.
+Pirkeju nera.
+
+T=46 min.
+Pirkeju nera.
+
+T=47 min.
+Pirkejas  3 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=48 min.
+Pirkejas  3 parduotuveje praleides laiko  1 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=49 min.
+Pirkejas  3 parduotuveje praleides laiko  2 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=50 min.
+Pirkejas  3 parduotuveje praleides laiko  3 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=51 min.
+Pirkejas  3 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is pardavejos 1.
+Pirkejas  4 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 2.
+
+T=52 min.
+Pirkejas  3 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is pardavejos 1.
+Pirkejas  4 parduotuveje praleides laiko  1 min. Busena. LAUKIA prekiu is pardavejos 2.
+
+T=53 min.
+Pirkejas  3 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is pardavejos 1.
+Pirkejas  4 parduotuveje praleides laiko  2 min. Busena. LAUKIA prekiu is pardavejos 2.
+
+T=54 min.
+Pirkejas  3 parduotuveje praleides laiko  7 min. Busena. Gavo graza is pardavejos 1 ir ISEJO is parduotuves.
+Pirkejas  4 parduotuveje praleides laiko  3 min. Busena. LAUKIA prekiu is pardavejos 2.
+
+T=55 min.
+Pirkejas  4 parduotuveje praleides laiko  3 min. Busena. LAUKIA prekiu is pardavejos 2.
+
+T=56 min.
+Pirkejas  4 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is pardavejos 2.
+
+T=57 min.
+Pirkejas  4 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is pardavejos 2.
+
+T=58 min.
+Pirkejas  4 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is pardavejos 2.
+
+T=59 min.
+Pirkejas  4 parduotuveje praleides laiko  7 min. Busena. Gavo graza is pardavejos 2 ir ISEJO is parduotuves.
+Pirkejas  5 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=60 min.
+Pirkejas  5 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=61 min.
+Pirkejas  5 parduotuveje praleides laiko  1 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=62 min.
+Pirkejas  5 parduotuveje praleides laiko  2 min. Busena. LAUKIA prekiu is pardavejos 1.
+Pirkejas  6 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 2.
+
+T=63 min.
+Pirkejas  5 parduotuveje praleides laiko  3 min. Busena. LAUKIA prekiu is pardavejos 1.
+Pirkejas  6 parduotuveje praleides laiko  1 min. Busena. LAUKIA prekiu is pardavejos 2.
+
+T=64 min.
+Pirkejas  5 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is pardavejos 1.
+Pirkejas  6 parduotuveje praleides laiko  2 min. Busena. LAUKIA prekiu is pardavejos 2.
+
+T=65 min.
+Pirkejas  5 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is pardavejos 1.
+Pirkejas  6 parduotuveje praleides laiko  3 min. Busena. LAUKIA prekiu is pardavejos 2.
+
+T=66 min.
+Pirkejas  5 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is pardavejos 1.
+Pirkejas  6 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is pardavejos 2.
+Pirkejas  7 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 3.
+
+T=67 min.
+Pirkejas  5 parduotuveje praleides laiko  7 min. Busena. Gavo graza is pardavejos 1 ir ISEJO is parduotuves.
+Pirkejas  6 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is pardavejos 2.
+Pirkejas  7 parduotuveje praleides laiko  1 min. Busena. LAUKIA prekiu is pardavejos 3.
+
+T=68 min.
+Pirkejas  6 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is pardavejos 2.
+Pirkejas  7 parduotuveje praleides laiko  2 min. Busena. LAUKIA prekiu is pardavejos 3.
+
+T=69 min.
+Pirkejas  6 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is pardavejos 2.
+Pirkejas  7 parduotuveje praleides laiko  3 min. Busena. LAUKIA prekiu is pardavejos 3.
+
+T=70 min.
+Pirkejas  6 parduotuveje praleides laiko  7 min. Busena. Gavo graza is pardavejos 2 ir ISEJO is parduotuves.
+Pirkejas  7 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is pardavejos 3.
+
+T=71 min.
+Pirkejas  7 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is pardavejos 3.
+
+T=72 min.
+Pirkejas  7 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is pardavejos 3.
+Pirkejas  8 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=73 min.
+Pirkejas  7 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is pardavejos 3.
+Pirkejas  8 parduotuveje praleides laiko  1 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=74 min.
+Pirkejas  7 parduotuveje praleides laiko  7 min. Busena. Gavo graza is pardavejos 3 ir ISEJO is parduotuves.
+Pirkejas  8 parduotuveje praleides laiko  2 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=75 min.
+Pirkejas  8 parduotuveje praleides laiko  2 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=76 min.
+Pirkejas  8 parduotuveje praleides laiko  3 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=77 min.
+Pirkejas  8 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is pardavejos 1.
+Pirkejas  9 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 2.
+
+T=78 min.
+Pirkejas  8 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is pardavejos 1.
+Pirkejas  9 parduotuveje praleides laiko  1 min. Busena. LAUKIA prekiu is pardavejos 2.
+
+T=79 min.
+Pirkejas  8 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is pardavejos 1.
+Pirkejas  9 parduotuveje praleides laiko  2 min. Busena. LAUKIA prekiu is pardavejos 2.
+
+T=80 min.
+Pirkejas  8 parduotuveje praleides laiko  7 min. Busena. Gavo graza is pardavejos 1 ir ISEJO is parduotuves.
+Pirkejas  9 parduotuveje praleides laiko  3 min. Busena. LAUKIA prekiu is pardavejos 2.
+
+T=81 min.
+Pirkejas  9 parduotuveje praleides laiko  3 min. Busena. LAUKIA prekiu is pardavejos 2.
+
+T=82 min.
+Pirkejas  9 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is pardavejos 2.
+
+T=83 min.
+Pirkejas  9 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is pardavejos 2.
+
+T=84 min.
+Pirkejas  9 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is pardavejos 2.
+
+T=85 min.
+Pirkejas  9 parduotuveje praleides laiko  7 min. Busena. Gavo graza is pardavejos 2 ir ISEJO is parduotuves.
+
+T=86 min.
+Pirkeju nera.
+
+T=87 min.
+Pirkeju nera.
+
+T=88 min.
+Pirkeju nera.
+
+T=89 min.
+Pirkeju nera.
+
+T=90 min.
+Pirkeju nera.
+
+T=91 min.
+Pirkeju nera.
+
+T=92 min.
+Pirkeju nera.
+
+T=93 min.
+Pirkejas 10 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=94 min.
+Pirkejas 10 parduotuveje praleides laiko  1 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=95 min.
+Pirkejas 10 parduotuveje praleides laiko  2 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=96 min.
+Pirkejas 10 parduotuveje praleides laiko  3 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=97 min.
+Pirkejas 10 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is pardavejos 1.
+
+T=98 min.
+Pirkejas 10 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is pardavejos 1.
+
+T=99 min.
+Pirkejas 10 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is pardavejos 1.
+
+T=100 min.
+Pirkejas 10 parduotuveje praleides laiko  7 min. Busena. Gavo graza is pardavejos 1 ir ISEJO is parduotuves.
+Pirkejas 11 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 2.
+
+T=101 min.
+Pirkejas 11 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 2.
+
+T=102 min.
+Pirkejas 11 parduotuveje praleides laiko  1 min. Busena. LAUKIA prekiu is pardavejos 2.
+
+T=103 min.
+Pirkejas 11 parduotuveje praleides laiko  2 min. Busena. LAUKIA prekiu is pardavejos 2.
+Pirkejas 12 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=104 min.
+Pirkejas 11 parduotuveje praleides laiko  3 min. Busena. LAUKIA prekiu is pardavejos 2.
+Pirkejas 12 parduotuveje praleides laiko  1 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=105 min.
+Pirkejas 11 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is pardavejos 2.
+Pirkejas 12 parduotuveje praleides laiko  2 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=106 min.
+Pirkejas 11 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is pardavejos 2.
+Pirkejas 12 parduotuveje praleides laiko  3 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=107 min.
+Pirkejas 11 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is pardavejos 2.
+Pirkejas 12 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is pardavejos 1.
+
+T=108 min.
+Pirkejas 11 parduotuveje praleides laiko  7 min. Busena. Gavo graza is pardavejos 2 ir ISEJO is parduotuves.
+Pirkejas 12 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is pardavejos 1.
+
+T=109 min.
+Pirkejas 12 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is pardavejos 1.
+
+T=110 min.
+Pirkejas 12 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is pardavejos 1.
+
+T=111 min.
+Pirkejas 12 parduotuveje praleides laiko  7 min. Busena. Gavo graza is pardavejos 1 ir ISEJO is parduotuves.
+
+T=112 min.
+Pirkeju nera.
+
+T=113 min.
+Pirkeju nera.
+
+T=114 min.
+Pirkeju nera.
+
+T=115 min.
+Pirkeju nera.
+
+T=116 min.
+Pirkeju nera.
+
+T=117 min.
+Pirkeju nera.
+
+T=118 min.
+Pirkeju nera.
+
+T=119 min.
+Pirkeju nera.
+
+T=120 min.
+Pirkeju nera.
+
+T=121 min.
+Pirkeju nera.
+
+T=122 min.
+Pirkejas 13 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=123 min.
+Pirkejas 13 parduotuveje praleides laiko  1 min. Busena. LAUKIA prekiu is pardavejos 1.
+Pirkejas 14 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 2.
+
+T=124 min.
+Pirkejas 13 parduotuveje praleides laiko  2 min. Busena. LAUKIA prekiu is pardavejos 1.
+Pirkejas 14 parduotuveje praleides laiko  1 min. Busena. LAUKIA prekiu is pardavejos 2.
+
+T=125 min.
+Pirkejas 13 parduotuveje praleides laiko  3 min. Busena. LAUKIA prekiu is pardavejos 1.
+Pirkejas 14 parduotuveje praleides laiko  2 min. Busena. LAUKIA prekiu is pardavejos 2.
+
+T=126 min.
+Pirkejas 13 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is pardavejos 1.
+Pirkejas 14 parduotuveje praleides laiko  3 min. Busena. LAUKIA prekiu is pardavejos 2.
+
+T=127 min.
+Pirkejas 13 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is pardavejos 1.
+Pirkejas 14 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is pardavejos 2.
+
+T=128 min.
+Pirkejas 13 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is pardavejos 1.
+Pirkejas 14 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is pardavejos 2.
+
+T=129 min.
+Pirkejas 13 parduotuveje praleides laiko  7 min. Busena. Gavo graza is pardavejos 1 ir ISEJO is parduotuves.
+Pirkejas 14 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is pardavejos 2.
+
+T=130 min.
+Pirkejas 14 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is pardavejos 2.
+
+T=131 min.
+Pirkejas 14 parduotuveje praleides laiko  7 min. Busena. Gavo graza is pardavejos 2 ir ISEJO is parduotuves.
+
+T=132 min.
+Pirkeju nera.
+
+T=133 min.
+Pirkeju nera.
+
+T=134 min.
+Pirkeju nera.
+
+T=135 min.
+Pirkeju nera.
+
+T=136 min.
+Pirkeju nera.
+
+T=137 min.
+Pirkejas 15 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=138 min.
+Pirkejas 15 parduotuveje praleides laiko  1 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=139 min.
+Pirkejas 15 parduotuveje praleides laiko  2 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=140 min.
+Pirkejas 15 parduotuveje praleides laiko  3 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=141 min.
+Pirkejas 15 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is pardavejos 1.
+
+T=142 min.
+Pirkejas 15 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is pardavejos 1.
+
+T=143 min.
+Pirkejas 15 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is pardavejos 1.
+
+T=144 min.
+Pirkejas 15 parduotuveje praleides laiko  7 min. Busena. Gavo graza is pardavejos 1 ir ISEJO is parduotuves.
+
+T=145 min.
+Pirkeju nera.
+
+T=146 min.
+Pirkeju nera.
+
+T=147 min.
+Pirkeju nera.
+
+T=148 min.
+Pirkejas 16 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=149 min.
+Pirkejas 16 parduotuveje praleides laiko  1 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=150 min.
+Pirkejas 16 parduotuveje praleides laiko  2 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=151 min.
+Pirkejas 16 parduotuveje praleides laiko  3 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=152 min.
+Pirkejas 16 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is pardavejos 1.
+
+T=153 min.
+Pirkejas 16 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is pardavejos 1.
+Pirkejas 17 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 2.
+
+T=154 min.
+Pirkejas 16 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is pardavejos 1.
+Pirkejas 17 parduotuveje praleides laiko  1 min. Busena. LAUKIA prekiu is pardavejos 2.
+
+T=155 min.
+Pirkejas 16 parduotuveje praleides laiko  7 min. Busena. Gavo graza is pardavejos 1 ir ISEJO is parduotuves.
+Pirkejas 17 parduotuveje praleides laiko  2 min. Busena. LAUKIA prekiu is pardavejos 2.
+
+T=156 min.
+Pirkejas 17 parduotuveje praleides laiko  2 min. Busena. LAUKIA prekiu is pardavejos 2.
+
+T=157 min.
+Pirkejas 17 parduotuveje praleides laiko  3 min. Busena. LAUKIA prekiu is pardavejos 2.
+
+T=158 min.
+Pirkejas 17 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is pardavejos 2.
+
+T=159 min.
+Pirkejas 17 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is pardavejos 2.
+
+T=160 min.
+Pirkejas 17 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is pardavejos 2.
+
+T=161 min.
+Pirkejas 17 parduotuveje praleides laiko  7 min. Busena. Gavo graza is pardavejos 2 ir ISEJO is parduotuves.
+
+T=162 min.
+Pirkeju nera.
+
+T=163 min.
+Pirkeju nera.
+
+T=164 min.
+Pirkeju nera.
+
+T=165 min.
+Pirkeju nera.
+
+T=166 min.
+Pirkeju nera.
+
+T=167 min.
+Pirkeju nera.
+
+T=168 min.
+Pirkeju nera.
+
+T=169 min.
+Pirkejas 18 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=170 min.
+Pirkejas 18 parduotuveje praleides laiko  1 min. Busena. LAUKIA prekiu is pardavejos 1.
+Pirkejas 19 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 2.
+
+T=171 min.
+Pirkejas 18 parduotuveje praleides laiko  2 min. Busena. LAUKIA prekiu is pardavejos 1.
+Pirkejas 19 parduotuveje praleides laiko  1 min. Busena. LAUKIA prekiu is pardavejos 2.
+Pirkejas 20 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 3.
+
+T=172 min.
+Pirkejas 18 parduotuveje praleides laiko  3 min. Busena. LAUKIA prekiu is pardavejos 1.
+Pirkejas 19 parduotuveje praleides laiko  2 min. Busena. LAUKIA prekiu is pardavejos 2.
+Pirkejas 20 parduotuveje praleides laiko  1 min. Busena. LAUKIA prekiu is pardavejos 3.
+
+T=173 min.
+Pirkejas 18 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is pardavejos 1.
+Pirkejas 19 parduotuveje praleides laiko  3 min. Busena. LAUKIA prekiu is pardavejos 2.
+Pirkejas 20 parduotuveje praleides laiko  2 min. Busena. LAUKIA prekiu is pardavejos 3.
+
+T=174 min.
+Pirkejas 18 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is pardavejos 1.
+Pirkejas 19 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is pardavejos 2.
+Pirkejas 20 parduotuveje praleides laiko  3 min. Busena. LAUKIA prekiu is pardavejos 3.
+
+T=175 min.
+Pirkejas 18 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is pardavejos 1.
+Pirkejas 19 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is pardavejos 2.
+Pirkejas 20 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is pardavejos 3.
+
+T=176 min.
+Pirkejas 18 parduotuveje praleides laiko  7 min. Busena. Gavo graza is pardavejos 1 ir ISEJO is parduotuves.
+Pirkejas 19 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is pardavejos 2.
+Pirkejas 20 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is pardavejos 3.
+
+T=177 min.
+Pirkejas 19 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is pardavejos 2.
+Pirkejas 20 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is pardavejos 3.
+
+T=178 min.
+Pirkejas 19 parduotuveje praleides laiko  7 min. Busena. Gavo graza is pardavejos 2 ir ISEJO is parduotuves.
+Pirkejas 20 parduotuveje praleides laiko  7 min. Busena. Gavo graza is pardavejos 3 ir ISEJO is parduotuves.
+Pirkejas 21 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=179 min.
+Pirkejas 20 parduotuveje praleides laiko  7 min. Busena. Gavo graza is pardavejos 3 ir ISEJO is parduotuves.
+Pirkejas 21 parduotuveje praleides laiko  1 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=180 min.
+Pirkejas 21 parduotuveje praleides laiko  1 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=181 min.
+Pirkejas 21 parduotuveje praleides laiko  2 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=182 min.
+Pirkejas 21 parduotuveje praleides laiko  3 min. Busena. LAUKIA prekiu is pardavejos 1.
+
+T=183 min.
+Pirkejas 21 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is pardavejos 1.
+
+T=184 min.
+Pirkejas 21 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is pardavejos 1.
+
+T=185 min.
+Pirkejas 21 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is pardavejos 1.
+
+T=186 min.
+Pirkejas 21 parduotuveje praleides laiko  7 min. Busena. Gavo graza is pardavejos 1 ir ISEJO is parduotuves.
+
+T=187 min.
+Pirkeju nera.
+
+T=188 min.
+Pirkeju nera.
+
+T=189 min.
+Pirkeju nera.
+
+T=190 min.
+Pirkeju nera.
+
+T=191 min.
+Pirkeju nera.
+
+T=192 min.
+Pirkeju nera.
+
+T=193 min.
+Pirkeju nera.
+
+T=194 min.
+Pirkeju nera.
+
+T=195 min.
+Pirkeju nera.
+
+T=196 min.
+Pirkeju nera.
+
+T=197 min.
+Pirkeju nera.
+
+T=198 min.
+Pirkeju nera.
+
+T=199 min.
+Pirkeju nera.
+
+T=200 min.
+Pirkeju nera.
+
+DALIS 2.2. Procesas 2. Protokolas.
+
+T=1 min.
+Pirkeju nera.
+
+T=2 min.
+Pirkeju nera.
+
+T=3 min.
+Pirkeju nera.
+
+T=4 min.
+Pirkejas  1 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=5 min.
+Pirkejas  1 parduotuveje praleides laiko  1 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=6 min.
+Pirkejas  1 parduotuveje praleides laiko  2 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=7 min.
+Pirkejas  1 parduotuveje praleides laiko  3 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=8 min.
+Pirkejas  1 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is kasininkes 1.
+
+T=9 min.
+Pirkejas  1 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is kasininkes 1.
+
+T=10 min.
+Pirkejas  1 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is kasininkes 1.
+
+T=11 min.
+Pirkejas  1 parduotuveje praleides laiko  7 min. Busena. LAUKIA grazos is kasininkes 1.
+
+T=12 min.
+Pirkejas  1 parduotuveje praleides laiko  8 min. Busena. Be eiles gavo prekes is pardavejos 1 ir ISEJO is parduotuves.
+
+T=13 min.
+Pirkeju nera.
+
+T=14 min.
+Pirkejas  2 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=15 min.
+Pirkejas  2 parduotuveje praleides laiko  1 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=16 min.
+Pirkejas  2 parduotuveje praleides laiko  2 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=17 min.
+Pirkejas  2 parduotuveje praleides laiko  3 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=18 min.
+Pirkejas  2 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is kasininkes 1.
+
+T=19 min.
+Pirkejas  2 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is kasininkes 1.
+
+T=20 min.
+Pirkejas  2 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is kasininkes 1.
+
+T=21 min.
+Pirkejas  2 parduotuveje praleides laiko  7 min. Busena. LAUKIA grazos is kasininkes 1.
+
+T=22 min.
+Pirkejas  2 parduotuveje praleides laiko  8 min. Busena. Be eiles gavo prekes is pardavejos 1 ir ISEJO is parduotuves.
+
+T=23 min.
+Pirkeju nera.
+
+T=24 min.
+Pirkeju nera.
+
+T=25 min.
+Pirkeju nera.
+
+T=26 min.
+Pirkeju nera.
+
+T=27 min.
+Pirkeju nera.
+
+T=28 min.
+Pirkeju nera.
+
+T=29 min.
+Pirkeju nera.
+
+T=30 min.
+Pirkeju nera.
+
+T=31 min.
+Pirkeju nera.
+
+T=32 min.
+Pirkeju nera.
+
+T=33 min.
+Pirkeju nera.
+
+T=34 min.
+Pirkeju nera.
+
+T=35 min.
+Pirkeju nera.
+
+T=36 min.
+Pirkeju nera.
+
+T=37 min.
+Pirkeju nera.
+
+T=38 min.
+Pirkeju nera.
+
+T=39 min.
+Pirkeju nera.
+
+T=40 min.
+Pirkeju nera.
+
+T=41 min.
+Pirkeju nera.
+
+T=42 min.
+Pirkeju nera.
+
+T=43 min.
+Pirkeju nera.
+
+T=44 min.
+Pirkeju nera.
+
+T=45 min.
+Pirkeju nera.
+
+T=46 min.
+Pirkeju nera.
+
+T=47 min.
+Pirkejas  3 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=48 min.
+Pirkejas  3 parduotuveje praleides laiko  1 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=49 min.
+Pirkejas  3 parduotuveje praleides laiko  2 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=50 min.
+Pirkejas  3 parduotuveje praleides laiko  3 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=51 min.
+Pirkejas  3 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is kasininkes 1.
+Pirkejas  4 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=52 min.
+Pirkejas  3 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is kasininkes 1.
+Pirkejas  4 parduotuveje praleides laiko  1 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=53 min.
+Pirkejas  3 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is kasininkes 1.
+Pirkejas  4 parduotuveje praleides laiko  2 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=54 min.
+Pirkejas  3 parduotuveje praleides laiko  7 min. Busena. LAUKIA grazos is kasininkes 1.
+Pirkejas  4 parduotuveje praleides laiko  3 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=55 min.
+Pirkejas  3 parduotuveje praleides laiko  8 min. Busena. Be eiles gavo prekes is pardavejos 1 ir ISEJO is parduotuves.
+Pirkejas  4 parduotuveje praleides laiko  4 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=56 min.
+Pirkejas  4 parduotuveje praleides laiko  4 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=57 min.
+Pirkejas  4 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is kasininkes 1.
+
+T=58 min.
+Pirkejas  4 parduotuveje praleides laiko  6 min. Busena. LAUKIA cekio is kasininkes 1.
+
+T=59 min.
+Pirkejas  4 parduotuveje praleides laiko  7 min. Busena. LAUKIA grazos is kasininkes 1.
+Pirkejas  5 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=60 min.
+Pirkejas  4 parduotuveje praleides laiko  8 min. Busena. LAUKIA grazos is kasininkes 1.
+Pirkejas  5 parduotuveje praleides laiko  1 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=61 min.
+Pirkejas  4 parduotuveje praleides laiko  9 min. Busena. Be eiles gavo prekes is pardavejos 1 ir ISEJO is parduotuves.
+Pirkejas  5 parduotuveje praleides laiko  2 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=62 min.
+Pirkejas  5 parduotuveje praleides laiko  2 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+Pirkejas  6 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 2.
+
+T=63 min.
+Pirkejas  5 parduotuveje praleides laiko  3 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+Pirkejas  6 parduotuveje praleides laiko  1 min. Busena. LAUKIA surenkamu prekiu is pardavejos 2.
+
+T=64 min.
+Pirkejas  5 parduotuveje praleides laiko  4 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+Pirkejas  6 parduotuveje praleides laiko  2 min. Busena. LAUKIA surenkamu prekiu is pardavejos 2.
+
+T=65 min.
+Pirkejas  5 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is kasininkes 1.
+Pirkejas  6 parduotuveje praleides laiko  3 min. Busena. LAUKIA surenkamu prekiu is pardavejos 2.
+
+T=66 min.
+Pirkejas  5 parduotuveje praleides laiko  6 min. Busena. LAUKIA cekio is kasininkes 1.
+Pirkejas  6 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is kasininkes 2.
+Pirkejas  7 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=67 min.
+Pirkejas  5 parduotuveje praleides laiko  7 min. Busena. LAUKIA grazos is kasininkes 1.
+Pirkejas  6 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is kasininkes 2.
+Pirkejas  7 parduotuveje praleides laiko  1 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=68 min.
+Pirkejas  5 parduotuveje praleides laiko  8 min. Busena. LAUKIA grazos is kasininkes 1.
+Pirkejas  6 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is kasininkes 2.
+Pirkejas  7 parduotuveje praleides laiko  2 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=69 min.
+Pirkejas  5 parduotuveje praleides laiko  9 min. Busena. Be eiles gavo prekes is pardavejos 1 ir ISEJO is parduotuves.
+Pirkejas  6 parduotuveje praleides laiko  7 min. Busena. LAUKIA grazos is kasininkes 2.
+Pirkejas  7 parduotuveje praleides laiko  3 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=70 min.
+Pirkejas  6 parduotuveje praleides laiko  7 min. Busena. LAUKIA grazos is kasininkes 2.
+Pirkejas  7 parduotuveje praleides laiko  4 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=71 min.
+Pirkejas  6 parduotuveje praleides laiko  8 min. Busena. Be eiles gavo prekes is pardavejos 2 ir ISEJO is parduotuves.
+Pirkejas  7 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is kasininkes 1.
+
+T=72 min.
+Pirkejas  7 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is kasininkes 1.
+Pirkejas  8 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=73 min.
+Pirkejas  7 parduotuveje praleides laiko  6 min. Busena. LAUKIA cekio is kasininkes 1.
+Pirkejas  8 parduotuveje praleides laiko  1 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=74 min.
+Pirkejas  7 parduotuveje praleides laiko  7 min. Busena. LAUKIA grazos is kasininkes 1.
+Pirkejas  8 parduotuveje praleides laiko  2 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=75 min.
+Pirkejas  7 parduotuveje praleides laiko  8 min. Busena. LAUKIA grazos is kasininkes 1.
+Pirkejas  8 parduotuveje praleides laiko  3 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=76 min.
+Pirkejas  7 parduotuveje praleides laiko  9 min. Busena. Be eiles gavo prekes is pardavejos 1 ir ISEJO is parduotuves.
+Pirkejas  8 parduotuveje praleides laiko  4 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=77 min.
+Pirkejas  8 parduotuveje praleides laiko  4 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+Pirkejas  9 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 2.
+
+T=78 min.
+Pirkejas  8 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is kasininkes 1.
+Pirkejas  9 parduotuveje praleides laiko  1 min. Busena. LAUKIA surenkamu prekiu is pardavejos 2.
+
+T=79 min.
+Pirkejas  8 parduotuveje praleides laiko  6 min. Busena. LAUKIA cekio is kasininkes 1.
+Pirkejas  9 parduotuveje praleides laiko  2 min. Busena. LAUKIA surenkamu prekiu is pardavejos 2.
+
+T=80 min.
+Pirkejas  8 parduotuveje praleides laiko  7 min. Busena. LAUKIA grazos is kasininkes 1.
+Pirkejas  9 parduotuveje praleides laiko  3 min. Busena. LAUKIA surenkamu prekiu is pardavejos 2.
+
+T=81 min.
+Pirkejas  8 parduotuveje praleides laiko  8 min. Busena. LAUKIA grazos is kasininkes 1.
+Pirkejas  9 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is kasininkes 2.
+
+T=82 min.
+Pirkejas  8 parduotuveje praleides laiko  9 min. Busena. Be eiles gavo prekes is pardavejos 1 ir ISEJO is parduotuves.
+Pirkejas  9 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is kasininkes 2.
+
+T=83 min.
+Pirkejas  9 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is kasininkes 2.
+
+T=84 min.
+Pirkejas  9 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is kasininkes 2.
+
+T=85 min.
+Pirkejas  9 parduotuveje praleides laiko  7 min. Busena. LAUKIA grazos is kasininkes 2.
+
+T=86 min.
+Pirkejas  9 parduotuveje praleides laiko  8 min. Busena. Be eiles gavo prekes is pardavejos 2 ir ISEJO is parduotuves.
+
+T=87 min.
+Pirkeju nera.
+
+T=88 min.
+Pirkeju nera.
+
+T=89 min.
+Pirkeju nera.
+
+T=90 min.
+Pirkeju nera.
+
+T=91 min.
+Pirkeju nera.
+
+T=92 min.
+Pirkeju nera.
+
+T=93 min.
+Pirkejas 10 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=94 min.
+Pirkejas 10 parduotuveje praleides laiko  1 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=95 min.
+Pirkejas 10 parduotuveje praleides laiko  2 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=96 min.
+Pirkejas 10 parduotuveje praleides laiko  3 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=97 min.
+Pirkejas 10 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is kasininkes 1.
+
+T=98 min.
+Pirkejas 10 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is kasininkes 1.
+
+T=99 min.
+Pirkejas 10 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is kasininkes 1.
+
+T=100 min.
+Pirkejas 10 parduotuveje praleides laiko  7 min. Busena. LAUKIA grazos is kasininkes 1.
+Pirkejas 11 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=101 min.
+Pirkejas 10 parduotuveje praleides laiko  8 min. Busena. Be eiles gavo prekes is pardavejos 1 ir ISEJO is parduotuves.
+Pirkejas 11 parduotuveje praleides laiko  1 min. Busena. LAUKIA eileje prie pardavejos 1.
+
+T=102 min.
+Pirkejas 11 parduotuveje praleides laiko  1 min. Busena. LAUKIA eileje prie pardavejos 1.
+
+T=103 min.
+Pirkejas 11 parduotuveje praleides laiko  2 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+Pirkejas 12 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 2.
+
+T=104 min.
+Pirkejas 11 parduotuveje praleides laiko  3 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+Pirkejas 12 parduotuveje praleides laiko  1 min. Busena. LAUKIA surenkamu prekiu is pardavejos 2.
+
+T=105 min.
+Pirkejas 11 parduotuveje praleides laiko  4 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+Pirkejas 12 parduotuveje praleides laiko  2 min. Busena. LAUKIA surenkamu prekiu is pardavejos 2.
+
+T=106 min.
+Pirkejas 11 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is kasininkes 1.
+Pirkejas 12 parduotuveje praleides laiko  3 min. Busena. LAUKIA surenkamu prekiu is pardavejos 2.
+
+T=107 min.
+Pirkejas 11 parduotuveje praleides laiko  6 min. Busena. LAUKIA cekio is kasininkes 1.
+Pirkejas 12 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is kasininkes 2.
+
+T=108 min.
+Pirkejas 11 parduotuveje praleides laiko  7 min. Busena. LAUKIA grazos is kasininkes 1.
+Pirkejas 12 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is kasininkes 2.
+
+T=109 min.
+Pirkejas 11 parduotuveje praleides laiko  8 min. Busena. LAUKIA grazos is kasininkes 1.
+Pirkejas 12 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is kasininkes 2.
+
+T=110 min.
+Pirkejas 11 parduotuveje praleides laiko  9 min. Busena. Be eiles gavo prekes is pardavejos 1 ir ISEJO is parduotuves.
+Pirkejas 12 parduotuveje praleides laiko  7 min. Busena. LAUKIA grazos is kasininkes 2.
+
+T=111 min.
+Pirkejas 12 parduotuveje praleides laiko  7 min. Busena. LAUKIA grazos is kasininkes 2.
+
+T=112 min.
+Pirkejas 12 parduotuveje praleides laiko  8 min. Busena. Be eiles gavo prekes is pardavejos 2 ir ISEJO is parduotuves.
+
+T=113 min.
+Pirkeju nera.
+
+T=114 min.
+Pirkeju nera.
+
+T=115 min.
+Pirkeju nera.
+
+T=116 min.
+Pirkeju nera.
+
+T=117 min.
+Pirkeju nera.
+
+T=118 min.
+Pirkeju nera.
+
+T=119 min.
+Pirkeju nera.
+
+T=120 min.
+Pirkeju nera.
+
+T=121 min.
+Pirkeju nera.
+
+T=122 min.
+Pirkejas 13 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=123 min.
+Pirkejas 13 parduotuveje praleides laiko  1 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+Pirkejas 14 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 2.
+
+T=124 min.
+Pirkejas 13 parduotuveje praleides laiko  2 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+Pirkejas 14 parduotuveje praleides laiko  1 min. Busena. LAUKIA surenkamu prekiu is pardavejos 2.
+
+T=125 min.
+Pirkejas 13 parduotuveje praleides laiko  3 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+Pirkejas 14 parduotuveje praleides laiko  2 min. Busena. LAUKIA surenkamu prekiu is pardavejos 2.
+
+T=126 min.
+Pirkejas 13 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is kasininkes 1.
+Pirkejas 14 parduotuveje praleides laiko  3 min. Busena. LAUKIA surenkamu prekiu is pardavejos 2.
+
+T=127 min.
+Pirkejas 13 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is kasininkes 1.
+Pirkejas 14 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is kasininkes 2.
+
+T=128 min.
+Pirkejas 13 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is kasininkes 1.
+Pirkejas 14 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is kasininkes 2.
+
+T=129 min.
+Pirkejas 13 parduotuveje praleides laiko  7 min. Busena. LAUKIA grazos is kasininkes 1.
+Pirkejas 14 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is kasininkes 2.
+
+T=130 min.
+Pirkejas 13 parduotuveje praleides laiko  8 min. Busena. Be eiles gavo prekes is pardavejos 1 ir ISEJO is parduotuves.
+Pirkejas 14 parduotuveje praleides laiko  7 min. Busena. LAUKIA grazos is kasininkes 2.
+
+T=131 min.
+Pirkejas 14 parduotuveje praleides laiko  7 min. Busena. LAUKIA grazos is kasininkes 2.
+
+T=132 min.
+Pirkejas 14 parduotuveje praleides laiko  8 min. Busena. Be eiles gavo prekes is pardavejos 2 ir ISEJO is parduotuves.
+
+T=133 min.
+Pirkeju nera.
+
+T=134 min.
+Pirkeju nera.
+
+T=135 min.
+Pirkeju nera.
+
+T=136 min.
+Pirkeju nera.
+
+T=137 min.
+Pirkejas 15 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=138 min.
+Pirkejas 15 parduotuveje praleides laiko  1 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=139 min.
+Pirkejas 15 parduotuveje praleides laiko  2 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=140 min.
+Pirkejas 15 parduotuveje praleides laiko  3 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=141 min.
+Pirkejas 15 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is kasininkes 1.
+
+T=142 min.
+Pirkejas 15 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is kasininkes 1.
+
+T=143 min.
+Pirkejas 15 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is kasininkes 1.
+
+T=144 min.
+Pirkejas 15 parduotuveje praleides laiko  7 min. Busena. LAUKIA grazos is kasininkes 1.
+
+T=145 min.
+Pirkejas 15 parduotuveje praleides laiko  8 min. Busena. Be eiles gavo prekes is pardavejos 1 ir ISEJO is parduotuves.
+
+T=146 min.
+Pirkeju nera.
+
+T=147 min.
+Pirkeju nera.
+
+T=148 min.
+Pirkejas 16 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=149 min.
+Pirkejas 16 parduotuveje praleides laiko  1 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=150 min.
+Pirkejas 16 parduotuveje praleides laiko  2 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=151 min.
+Pirkejas 16 parduotuveje praleides laiko  3 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=152 min.
+Pirkejas 16 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is kasininkes 1.
+
+T=153 min.
+Pirkejas 16 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is kasininkes 1.
+Pirkejas 17 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=154 min.
+Pirkejas 16 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is kasininkes 1.
+Pirkejas 17 parduotuveje praleides laiko  1 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=155 min.
+Pirkejas 16 parduotuveje praleides laiko  7 min. Busena. LAUKIA grazos is kasininkes 1.
+Pirkejas 17 parduotuveje praleides laiko  2 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=156 min.
+Pirkejas 16 parduotuveje praleides laiko  8 min. Busena. Be eiles gavo prekes is pardavejos 1 ir ISEJO is parduotuves.
+Pirkejas 17 parduotuveje praleides laiko  3 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=157 min.
+Pirkejas 17 parduotuveje praleides laiko  3 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=158 min.
+Pirkejas 17 parduotuveje praleides laiko  4 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=159 min.
+Pirkejas 17 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is kasininkes 1.
+
+T=160 min.
+Pirkejas 17 parduotuveje praleides laiko  6 min. Busena. LAUKIA cekio is kasininkes 1.
+
+T=161 min.
+Pirkejas 17 parduotuveje praleides laiko  7 min. Busena. LAUKIA grazos is kasininkes 1.
+
+T=162 min.
+Pirkejas 17 parduotuveje praleides laiko  8 min. Busena. LAUKIA grazos is kasininkes 1.
+
+T=163 min.
+Pirkejas 17 parduotuveje praleides laiko  9 min. Busena. Be eiles gavo prekes is pardavejos 1 ir ISEJO is parduotuves.
+
+T=164 min.
+Pirkeju nera.
+
+T=165 min.
+Pirkeju nera.
+
+T=166 min.
+Pirkeju nera.
+
+T=167 min.
+Pirkeju nera.
+
+T=168 min.
+Pirkeju nera.
+
+T=169 min.
+Pirkejas 18 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=170 min.
+Pirkejas 18 parduotuveje praleides laiko  1 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+Pirkejas 19 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 2.
+
+T=171 min.
+Pirkejas 18 parduotuveje praleides laiko  2 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+Pirkejas 19 parduotuveje praleides laiko  1 min. Busena. LAUKIA surenkamu prekiu is pardavejos 2.
+Pirkejas 20 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 3.
+
+T=172 min.
+Pirkejas 18 parduotuveje praleides laiko  3 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+Pirkejas 19 parduotuveje praleides laiko  2 min. Busena. LAUKIA surenkamu prekiu is pardavejos 2.
+Pirkejas 20 parduotuveje praleides laiko  1 min. Busena. LAUKIA surenkamu prekiu is pardavejos 3.
+
+T=173 min.
+Pirkejas 18 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is kasininkes 1.
+Pirkejas 19 parduotuveje praleides laiko  3 min. Busena. LAUKIA surenkamu prekiu is pardavejos 2.
+Pirkejas 20 parduotuveje praleides laiko  2 min. Busena. LAUKIA surenkamu prekiu is pardavejos 3.
+
+T=174 min.
+Pirkejas 18 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is kasininkes 1.
+Pirkejas 19 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is kasininkes 2.
+Pirkejas 20 parduotuveje praleides laiko  3 min. Busena. LAUKIA surenkamu prekiu is pardavejos 3.
+
+T=175 min.
+Pirkejas 18 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is kasininkes 1.
+Pirkejas 19 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is kasininkes 2.
+Pirkejas 20 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is kasininkes 3.
+
+T=176 min.
+Pirkejas 18 parduotuveje praleides laiko  7 min. Busena. LAUKIA grazos is kasininkes 1.
+Pirkejas 19 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is kasininkes 2.
+Pirkejas 20 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is kasininkes 3.
+
+T=177 min.
+Pirkejas 18 parduotuveje praleides laiko  8 min. Busena. Be eiles gavo prekes is pardavejos 1 ir ISEJO is parduotuves.
+Pirkejas 19 parduotuveje praleides laiko  7 min. Busena. LAUKIA grazos is kasininkes 2.
+Pirkejas 20 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is kasininkes 3.
+
+T=178 min.
+Pirkejas 19 parduotuveje praleides laiko  7 min. Busena. LAUKIA grazos is kasininkes 2.
+Pirkejas 20 parduotuveje praleides laiko  7 min. Busena. LAUKIA grazos is kasininkes 3.
+Pirkejas 21 parduotuveje praleides laiko  0 min. Busena. ATEJO i parduotuve ir atsistojo prie pardavejos 1.
+
+T=179 min.
+Pirkejas 19 parduotuveje praleides laiko  8 min. Busena. Be eiles gavo prekes is pardavejos 2 ir ISEJO is parduotuves.
+Pirkejas 20 parduotuveje praleides laiko  8 min. Busena. Be eiles gavo prekes is pardavejos 3 ir ISEJO is parduotuves.
+Pirkejas 21 parduotuveje praleides laiko  1 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=180 min.
+Pirkejas 20 parduotuveje praleides laiko  8 min. Busena. Be eiles gavo prekes is pardavejos 3 ir ISEJO is parduotuves.
+Pirkejas 21 parduotuveje praleides laiko  2 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=181 min.
+Pirkejas 21 parduotuveje praleides laiko  2 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=182 min.
+Pirkejas 21 parduotuveje praleides laiko  3 min. Busena. LAUKIA surenkamu prekiu is pardavejos 1.
+
+T=183 min.
+Pirkejas 21 parduotuveje praleides laiko  4 min. Busena. LAUKIA cekio is kasininkes 1.
+
+T=184 min.
+Pirkejas 21 parduotuveje praleides laiko  5 min. Busena. LAUKIA cekio is kasininkes 1.
+
+T=185 min.
+Pirkejas 21 parduotuveje praleides laiko  6 min. Busena. LAUKIA grazos is kasininkes 1.
+
+T=186 min.
+Pirkejas 21 parduotuveje praleides laiko  7 min. Busena. LAUKIA grazos is kasininkes 1.
+
+T=187 min.
+Pirkejas 21 parduotuveje praleides laiko  8 min. Busena. Be eiles gavo prekes is pardavejos 1 ir ISEJO is parduotuves.
+
+T=188 min.
+Pirkeju nera.
+
+T=189 min.
+Pirkeju nera.
+
+T=190 min.
+Pirkeju nera.
+
+T=191 min.
+Pirkeju nera.
+
+T=192 min.
+Pirkeju nera.
+
+T=193 min.
+Pirkeju nera.
+
+T=194 min.
+Pirkeju nera.
+
+T=195 min.
+Pirkeju nera.
+
+T=196 min.
+Pirkeju nera.
+
+T=197 min.
+Pirkeju nera.
+
+T=198 min.
+Pirkeju nera.
+
+T=199 min.
+Pirkeju nera.
+
+T=200 min.
+Pirkeju nera.
+
+DALIS 3. Rezultatai.
+
+DALIS 3.1. Procesas 1. Rezultatas.
+
+Kasos aparatu kaina           360 eur.
+Maksimalus apsipirkimo laikas   7 min.
+Minimalus apsipirkimo laikas    7 min.
+Vidutinis apsipirkimo laikas    7 min.
+
+DALIS 3.2. Procesas 2. Rezultatas.
+
+Kasos aparatu kaina           180 eur.
+Maksimalus apsipirkimo laikas   9 min.
+Minimalus apsipirkimo laikas    8 min.
+Vidutinis apsipirkimo laikas    8 min.
+
+DALIS 3.3. Isvados.
+
+Procesas 2 yra geresnis uz procesa 1 kasos aparatu kainos atzvilgiu.
+Procesas 1 yra geresnis uz procesa 2 maksimalaus aptarnavimo laiko atzvilgiu.
+Procesas 1 yra geresnis uz procesa 2 vidutinio aptarnavimo laiko atzvilgiu.
+Procesas 1 yra geresnis uz procesa 2 minimalaus aptarnavimo laiko atzvilgiu.
